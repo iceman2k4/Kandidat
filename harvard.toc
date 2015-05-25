@@ -1,0 +1,39 @@
+\select@language {swedish}
+\select@language {swedish}
+\contentsline {section}{\numberline {1}Inledning}{1}
+\contentsline {subsection}{\numberline {1.1}Problemdiskussion}{1}
+\contentsline {subsubsection}{\numberline {1.1.1}Syfte}{2}
+\contentsline {subsection}{\numberline {1.2}Bakgrund}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}New public management}{2}
+\contentsline {subsubsection}{\numberline {1.2.2}V\IeC {\"a}rdebaserad V\IeC {\r a}rd}{5}
+\contentsline {section}{\numberline {2}Att m\IeC {\"a}ta v\IeC {\"a}rdeskapande}{7}
+\contentsline {subsection}{\numberline {2.1}Att m\IeC {\"a}ta kvalitet}{7}
+\contentsline {subsection}{\numberline {2.2}Att m\IeC {\"a}ta kostnad}{9}
+\contentsline {subsection}{\numberline {2.3}Justering}{9}
+\contentsline {subsection}{\numberline {2.4}Sammanfattning av teori}{10}
+\contentsline {section}{\numberline {3}Metod och data}{12}
+\contentsline {subsection}{\numberline {3.1}Val av studieobjekt}{13}
+\contentsline {subsection}{\numberline {3.2}Datainsamling}{14}
+\contentsline {subsubsection}{\numberline {3.2.1}Data}{14}
+\contentsline {subsubsection}{\numberline {3.2.2}Integritet}{15}
+\contentsline {subsection}{\numberline {3.3}F\IeC {\"o}rbehandling av data}{15}
+\contentsline {subsubsection}{\numberline {3.3.1}Parametrar}{15}
+\contentsline {subsubsection}{\numberline {3.3.2}Saknade eller ok\IeC {\"a}nda v\IeC {\"a}rden}{16}
+\contentsline {subsubsection}{\numberline {3.3.3}Felregistrerade v\IeC {\"a}rden och omkodning av variabler}{18}
+\contentsline {subsubsection}{\numberline {3.3.4}Datautforskning}{19}
+\contentsline {subsection}{\numberline {3.4}Modellbygge}{23}
+\contentsline {subsection}{\numberline {3.5}Validering}{23}
+\contentsline {subsection}{\numberline {3.6}Implementering}{24}
+\contentsline {subsubsection}{\numberline {3.6.1}Case/mix}{24}
+\contentsline {section}{\numberline {4}Resultat och Analys}{25}
+\contentsline {section}{\numberline {5}Slutsats}{29}
+\contentsline {subsection}{\numberline {5.1}Framtida forskning}{29}
+\contentsline {section}{\numberline {6}Referenser}{30}
+\contentsline {section}{\numberline {7}Appendix 1 - Kvalitetsmodell}{31}
+\contentsline {section}{\numberline {8}Appendix 2 - Kostnadsmodell}{32}
+\contentsline {section}{\numberline {9}Appendix 3 - }{33}
+\contentsline {section}{\numberline {10}Appendix - X }{34}
+\contentsline {section}{\numberline {11}Appendix 6 - }{35}
+\contentsline {section}{\numberline {12}Appendix 7 - }{36}
+\contentsline {section}{\numberline {13}Appendix 8 - }{37}
+\contentsline {section}{\numberline {14}Appendix 9 - }{38}

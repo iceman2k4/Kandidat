@@ -1,0 +1,1379 @@
+% Copyright 1994 Peter Williams.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainers of this work are Peter Williams and Thorsten Schnier.
+%
+% This work consists of all files listed in manifest.txt.
+%
+% Licence and copyright notice added on behalf of Peter Williams and Thorsten Schnier
+% by Clea F. Rees 2009/01/30.
+% \begin{filecontents}{bibtexlogo.sty}
+% \def\lowBibTeX{{\reset@font\rmfamily B\kern-.05em%
+%  \raise.0ex\hbox{\scshape i\kern-.025em b}\kern-.08em%
+%  T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+
+%\def\BibTeX{\protect\lowBibTeX}
+%\end{filecontents}
+\documentclass[a4paper]{article}
+\usepackage{harvard}
+\usepackage{bibtexlogo}
+\usepackage[swedish]{babel} % Svenska
+\selectlanguage{swedish} % Välj språk
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usepackage{fullpage}
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+\usepackage{caption}
+\usepackage[a4paper]{geometry}
+\usepackage{setspace}
+%\usepackage{float}
+%\restylefloat{table}
+
+
+\renewcommand{\baselinestretch}{1.5}
+
+
+
+\newcommand{\comname}[1]{{\bf $\backslash$#1}}
+\newcommand{\keyword}[1]{{\bf #1}}
+\newcommand{\varname}[1]{{\em #1}}
+\newcommand{\harvard}{{\sf harvard}}
+\newcommand{\Harvard}{{\sf Harvard}}
+
+\pagenumbering{roman}
+
+\title{Titelsida}
+\author{David Anderson \and Simon robertsson}
+
+\hyphenation{cite-as-noun poss-ess-ive-cite cit-at-ion-mode cite-year
+cite-name bib-lio-gr-aphy-sty-le cit-at-ion-sty-le har-vard-par-en-this
+har-vard-year-par-en-this har-vard-item bib-item har-vard-and use-pack-age}
+
+\begin{document}
+
+
+
+
+\bibliographystyle{agsm}
+\maketitle
+
+\newpage
+
+\begin{abstract}
+Kvar att skriva
+\end{abstract}
+
+\tableofcontents
+
+\clearpage
+\pagenumbering{arabic} 
+
+\section{Inledning}
+
+De senaste decennierna har stora reformer genomförts inom den offentliga sektorn i Sverige. Många av de förändringar som genomförts är baserade på styrformer från den privata sektorn och innefattar ökad konkurrensutsättning och starkare resultatfokus. Inom vård och omsorg är det tydligt hur dessa reformer ändrat sättet vårdorganisationer styrs. Det är numera inte bara lagar, politiska beslut och skattefinansiering som ligger till grund för organisationsstyrningen, även marknadsorienterade inslag såsom konkurrens mellan vårdgivare, resultatfokus samt ekonomisk resultatstyrning är centrala delar. Förändringen har fått konsekvenser både för personalen inom organisationerna samt brukarna av vården. Ett begrepp som ofta används för att beskriva det ökade marknadsinslaget inom offentlig sektor är New Public Management (NPM), detta begrepp återkommer senare i detta arbete (Karolinska Institutets folkhälsoakademi, 2011)
+ 
+Den förändrade spelplanen för vårdgivare har förändrat sättet hur dessa organisationer styrs och många har implementerat koncept från näringslivet såsom Lean produktion\footnote{ Lean är ett begrepp inom kvalitetsförbättring som bygger på arbete med ständiga förbättringar (Toyota, 2015)}. Ett annat koncept, värdebaserad vård (VBV), utvecklat av ekonomerna Michael Porter och Elizabeth Teisbeg, har fått genomslag inom den svenska sjukhussektorn. Centralt för VBV är att sätta patienten i fokus. Syftet är att skapa värde för patienten, gällande dess hälsa och upplevelser av vården. Detta uppnås genom att leverera högsta möjliga kvalitet för patienten i förhållande till kostnaden för vården. (Porter \& Tiesberg, 2006)
+ 
+Ett sjukhus som i dagsläget jobbar med att implementera VBV är Karolinska universitetssjukhuset (Karolinska). Karolinska har årligen 1,5 miljoner patientbesök och är en av Sveriges största vårdgivare (Karolinska, 2015). Målet med införandet av VBV är att uppnå ökad kvalitet utan att öka vårdkostnaden (Wiklund, 2015).
+
+\subsection{Problemdiskussion}
+
+Införandet av NPM inom den svenska sjukvården har mött mycket kritik. Flera läkare har protesterat mot den ökade byråkratin och att de i dagsläget känner sig mer som företagsledare än vårdgivare (SVT, 2014). Artikelserien “Den olönsamma patienten”, som publicerades i DN under 2013, författad av Maciej Zaremba riktar stark kritik mot NPM. Zaremba menar att reformen lett till att fokus flyttats från patienten och istället styrs organisationerna mot ekonomiska resultat.
+ 
+VBV konceptet lägger fokus på att skapa så hög kvalitet för patienten som möjligt i förhållande till vårdkostnaden. Vissa ser VBV som en lösning till flera av de problem NPM skapat eftersom utgångspunkten i konceptet är patientens upplevelse av vården och inte ekonomiska resultat (Nordenström, 2014). Kritiker menar dock att VBV bara är en förklädd variant som lider av samma brister som NPM. Ingemar Engström, ordförande för Svenska Läkaresällskapets delegation för medicinsk etik, skriver i läkartidningen menar att det inte är möjligt att implementera VBV i praktiken då det är svårt att mäta värdeskapandet i praktiken. Inte minst eftersom många faktorer annat än sjukvårdens kvalitet påverkar utfallet hos patienten, exempelvis socioekonomiska förhållanden och livsstil hos patienten (Läkartidningen, 2014;111:CPE9).
+ 
+Karolinska är intresserade att jämföra sina två hjärtinfarktsenheter i Huddinge och Solna ur ett värdeskapande perspektiv som en del i implementationen av VBV konceptet. Bakgrunden till detta är Solna rankats dåligt i jämförelse riksgenomsnittet för “Andel döda inom 28 dagar efter sjukhusvårdad hjärtinfarkt” samtidigt som Huddinge har lägre dödlighet än riksgenomsnittet (Socialstyrelsen, 2013). En möjlig orsak till Solnas förhållandevis dåliga ranking är att deras patientpopulation består av mer svårbehandlade fall än genomsnittet. (Wiklund, 2015) Effekten av patientpopulationer vid jämförelser av sjukhus är ett uppmärksammat problem inom VBV och det finns metoder för att justera för denna (Nordenström, 2014, s. 60).
+
+
+\subsubsection{Syfte}
+
+Syftet med detta arbete är att jämföra värdeskapandet för två olika enheter på Karolinska genom att justera för patientpopulationernas effekt.
+
+\subsection{Bakgrund}
+
+\subsubsection{New public management}
+
+NPM är ett uppsättning idéer som de senaste 30 åren kraftigt präglat tankarna kring hur offentlig förvaltning bör utformas. (Roland Almqvist 2006, s. 10) NPM:s ursprung och acceptans är omstridd. En tolkning är att NPM växte fram ut idéströmningarna ‘New Institutional Economics’ och ‘Managerialism’. ‘New Institutional Economics’ bygger på idéer om öppna marknader, valfrihet, transparans och incitamentstrukturer som blev populära efter andra världskriget. ‘Managerialism’ innebär i princip att ‘management’-metoder från den privata sektorn appliceras inom den offentliga sektorn. Även om ‘New Institutional Economics’ och ‘Managerialism’ utgör den intellektuella grunden för NPM så har dess framväxt inte skett i vakuum. Hood (1990) påstår i sin “tongivande” artikel “A New Public Management for all seasons” att det går att urskönja fyra megatrender som ligger till grund för NPM:s framväxt under det sena 1980-talet.
+
+\begin{enumerate}
+  \item Försök att sakta ned och backa statens tillväxt med avsikt på utgifter och antal anställda.
+  \item En övergång mot privatisering eller kvasi-privatisering och därmed bort från kärninstitutioner. Större fokus på subsidiaritet vid tillhandahållandet av tjänster d.v.s. att beslut kring statliga tjänster bör tas närmre medborgaren som nyttjar tjänsten.
+  \item En utveckling mot automatisering specifikt inom IT för att producera och distribuera publika tjänster.
+  \item Utvecklingen av en mer internationell agenda. Mer fokus på generella problem med offentlig förvaltning, policy, beslut och samarbete mellan nationer. Mindre fokus på lokala traditioner och specialisering utifrån individuella lands traditioner.
+\end{enumerate}
+
+NPM är alltså snarare ett paraplybegrepp för en generell idéströmning snarare än en specifik teori för hur offentlig förvaltning bör utformas. Däremot finns det flera försöka att beskriva dess kärnbudskap. Lena Agevall (2005), statsvetare vid Linnéuniversitet som forskat i ämnet, ger en beskrivning där hon delar in NPM i fem doktriner:
+
+\begin{enumerate}
+  \item \textbf{Styrning och kontroll:} Mål och resultatstyrning; strängare finansiell kontroll (mer värde för varje krona); kontraktsstyrning; prestationsersättningar (t.ex. skolpeng); jämförelser/benchmarking samt granskningar/utvärderingar.
+  \item \textbf{Disaggeregering och konkurrens:} Skapandet av kvasi-marknader, konkurrensutsättning och privatisering.
+  \item \textbf{Ledningsroller och delaktighet:} Politikerna ska få mer makt över tjänstemän och förvaltning. Detta ska ske samtidigt som duktiga chefer på lokal nivå ska ges möjligheten att målstyra verksamheten. NPM förespråkar alltså både centralisering och decentralisering varför det har beskrivits som ett tveeggat svärd.
+  \item \textbf{Medborgare, kund och delaktighet:} Medborgaren ska få större makt bl.a. genom sitt inflytande som kund.
+  \item \textbf{Nytt språk:} Verksamhetsenheter förvandlas till resultatenheter, chefstjänstemän tituleras direktörer, service och omsorg beskrivs i termer av produktion, medborgaren blir kund etc.
+\end{enumerate}
+
+Den ingrediens som blir mest central för detta arbete är Styrning och kontroll. Allt som beskrivs under den punkten fokuserar på att öka effektiviteten samt uppnå “mer värde för pengarna”. Större vikt läggs på efterkontroll av vad som uppnåtts än hur den dagliga verksamheten sköts. Incitament att förbättra verksamheten skapas genom prestationsersättningar och benchmarking (Almqvist 2006, s. 26-27).
+ 
+Styrning och kontroll ligger även till grund för dissagregering och konkurrens. Både för konkurrens mellan offentliga utförare och utkontraktering av offentlig verksamhet. Utkontraktering av offentlig verksamhet av offentlig verksamhet bygger på upphandling och vid dessa upphandlingar är kvalitet en central parameter i kontraktets utformning. I kontraktet specificeras vilket resultat som förväntas uppnås av utföraren. Beställaren har sedan ansvar för att styra och följa upp så att de avtalade resultaten efterlevs. Detta sätter stor tilltro till att resultatmåtten är både mätbara och jämförbara, något som inte alltid är självklart (Almqvist 2006, s. 58-59).
+ 
+NPM togs emot med blandade känslor när det under 1990-talet började få fäste i den offentliga sektorn. Förespråkarna såg det som lösning till alla inneboende problem medan motståndarna var oroliga att det skulle leda till början på slutet för alla demokratiska framsteg som skett under det senaste seklet (Hood, 1990, s. 4). Målstyrningen, tanken att politikerna sätter målen och den handlingsinriktade förvaltningen försöker uppnå dessa, var den som först fick genomslag i Sverige då det under 1990-talet infördes och testades i flertalet statliga myndigheter, kommuner och landsting. Konkurrensutsättning och marknadisering debatterades men det skulle dröja innan dessa blev verklighet (Almqvist 2006, s. 10-11).
+ 
+Att NPM fått ett starkt fäste i Sverige är enligt Hood (1995) förvånansvärt då Sverige har en stark socialdemokratisk tradition, till skillnad från merparten av de andra länder där NPM fått ett stort genomslag. En förklaring till NPMs starka fäste i Sverige är enligt Hans Hasselsblad den svenska traditionen av samhällelig ingenjörskonst (Hasselblad et al., 2008, s. 10).
+ 
+NPM infördes i de svenska landstingen i början av 1990-talet via konceptet kvalitetsstyrningskonceptet Total Quality Management (TQM) på initiativ av den borgliga regeringen som styrde under tiden. TQM-projektet skrotades efter ett tag men lämnade stora spår efter sig. Bland annat det Nationella kvalitetsregistret (Hasselblad et al., 2008, s. 123). För närvarade finns det 81 Nationella kvalitetsregister som utgörs av databaser med individbunden data, inom specifika medicinska områden (Nationella kvalitetsregister, 2014). Via rapporter från kvalitetsregistren kan läkare, kliniker, sjukhus och landsting analysera förändringar över tid och jämföra sig med andra som deltar i registerarbetet (Hasselblad et al., 2008, s. 124-125)
+
+De Nationella kvalitetsregistren har beskrivits av Socialstyrelsen som det mest framgångsrika instrumentet för uppföljning och kvalitetsutveckling i hälso- och sjukvården. I takt med arbetet med kvalitetsregistren har ett antal frågeställningar om dess framtid uppdagats. Exempel på dessa går att se från teman på Kvalitetsregisterdagarna: 2000 - “Stora skillnader i svensk hälso- och sjukvård och vad vi gör åt dem?”; 2002 - “Livskvalitet, patientupplevelser och olika mått på funktionsvinst och patientupplevd nytta”; 2006 - “Blir det bättre för patienterna med kvalitetsregister?”; 2007 - “Öppna jämförelser av resultat”. Mot bakgrund av dessa frågeställningar är det förståeligt att VBV skapat så pass stort intresse. 
+
+\subsubsection{Värdebaserad Vård}
+
+Värdebaserad vård (VBV) är ett koncept som från början togs fram av Harvarduniversitetets professor Michael Porter. Konceptet innefattar flera av de doktriner som av Agewall (2005) presenterats beskrivs som centrala inom NPM. VBV har fått genomslag i flera länder och i Sverige jobbar bland annat två av landets största sjukhus, Akademiska sjukhuset i Uppsala och Karolinska institutet i Stockholm, med att implementera VBV.
+ 
+Målet med att styra en vårdorganisation enligt VBV är att maximera värdeskapandet inom organisationen. Inom VBV definieras värde som kvalitet hos vården sett i förhållande till hur mycket omhändertagandet av patienten kostat, se ekvation \ref{eq:varde}. (Porter, 2010).
+
+\begin{equation}
+\label{eq:varde}
+	Varde = Kvalitet/Kostnad
+\end{equation}
+
+Värde är viktigt då det bör vara det yttersta målet hos vårdorganisationer, eftersom det är vad som i slutändan är viktigast för patienten och även det förenade intresset hos andra berörda aktörer (Porter \& Teisberg, 2006). En värdeökning gynnar patienter, skattebetalare och leverantörer samtidigt som den ökar den ekonomiska hållbarheten i hela systemet. Detta kan låta självklart och kanske enkelt men det är ovanligt att vårdorganisationer jobbar värdefokuserat. Det är till och med ovanligt att organisationer överhuvudtaget mäter värde. Porter ser det som en risk är att vård betraktas som en konstform och inte en vetenskaplig process med ständig förbättringspotential (Porter, 2010).
+ 
+Kvalitet är ett begrepp som i detta arbete utgår ifrån definitionen given av Porter (2010):
+ 
+\textit{“The full set of outcomes, adjusted for individual patient circumstances, constitutes the quality of care for a patient.”}
+ 
+Det vill säga att kvalitet är summan av utfall hos patienten med hänsyn till dennes individuella omständigheter.
+ 
+Införandet av VBV har dock mötts av kritik från bland annat läkare. Kritik riktas mot att konceptet är framtaget för den amerikanska marknaden där en annan konkurrenssituation råder och resursfördelningen är betydligt mer ojämlik. VBV utgår ifrån att det är möjligt att mäta vårdresultat vilket är långt från trivialt. Det största problemet med VBV är enligt dessa kritiker om det ens är möjligt att mäta vårdresultat på ett rättvist och fruktbart sätt. Konceptet kanske låter bra i teorin men i praktiken kan det vara omöjligt att genomföra. Dessa läkare anser istället att relationen mellan uppdragsgivare och vårdorganisationer måste bygga på förtroende och tillit (Läkartidningen. 2014;111:C77E). 
+
+\section{Att mäta värdeskapande}
+
+Eftersom det yttersta målet inom VBV är att förbättra kvaliteten i förhållande till vårdkostnaden är en central del i arbetet att just mäta kvaliteten och kostnaden. Att mäta, rapportera och jämföra kvalitet är ett viktigt steg för att motivera personal och i förlängningen öka värdet. För att möjliggöra detta krävs en öppenhet för kartläggning av utfall och kostnader. Med hjälp av insamlad data kan institutioner kartlägga värdeskapandet över tid och även jämföra de egna resultaten med andra institutioner. Denna typ av kartläggning gör det också möjligt att informera patienter, vårdgivare och beslutsfattare om det relativa värdet vårdorganisationen skapat. Det absolut viktigaste incitamentet med denna typ av rapportering är dock att ge underlag för att kunna stärka värdeskapandet i organisationen, det vill säga att öka kvaliteten i förhållande till kostnaden (Nordenström, 2014, s. 59).
+
+\subsection{Att mäta kvalitet}
+
+Som tidigare nämnts är en del av värdetskapandet att uppnå så hög kvalitet som möjligt. En viktig del i arbetet är således att kunna mäta kvalitetsskapandet. Vid utvärdering utav kvaliteten inom sjukvården används två huvudsakliga typer utav mått, process- och utfallsmått (Nordenström, 2014, s. 60).
+ 
+Utfallsmått utvärderar resultat av en aktivitet eller process där man jämför det uppnådda resultatet mot en referens som exempelvis kan vara: det avsedda resultatet, det naturliga förloppet (resultat utan den genomföra aktiviteten eller processen) eller ett annat sjukhus. Utfallet uttrycks vanligtvis kvantitativt och ofta som en andel. Ett exempel på utfallsmått är “30-dagars mortalitet för hjärtinfarktpatienter”, med andra ord “Hur många hjärtinfarktpatienter överlever 30 dagar efter operation”. Utfallsmått kan således användas för att utvärdera i vilken utsträckning som vårdens insatser påverkar sannolikheten att uppnå ett önskat hälsotillstånd. Utfallsmått speglar däremot inte bara faktorer rörande vårdinsatser utan också faktorer såsom livsstil, socioekonomiska faktorer och yttre fysiska faktorer. Detta redogörs vidare för i tabell XX där bidrag till förväntad livslängd presenteras. På grund av utfallsmåttets breda perspektiv lämpar sig utfallsmått bättre på högre nivå (nationell eller regional) än processmåttet (Nordenström, 2014, s. 71). Utfallsmått synliggör patientnyttan både för omgivningen och den vårdgivande organisationen samt lämpar sig bra för att jämföra den egna verksamheten med andra vårdgivare så kallad benchmarking (Nordenström, 2014, s. 69).
+ 
+Utfallsmått kan delas in i tre kategorier vilket illustreras i Tabell \ref{utfallsh}. Den högsta nivån av utfallsmått rör patientens hälsostatus exempelvis; överlevde patienten, återfick patienten rörligheten i armen eller lider patienten av smärta efter operationen. Nivå två relaterar till återhämtningen för patienten här används mått som tiden innan återgång till arbete och biverkningar. Nivå tre berör mer långvariga resultat såsom huruvida ny behandling krävs eller ej samt hur patienten upplevde bemötande  (Nordenström, 2014, s. XX).
+
+\begin{table}[h]
+\centering
+\caption{Hierarki av utfallsmått}
+\label{utfallsh}
+\begin{tabular}{|p{3cm}|p{3cm}|p{5cm}|}
+\hline
+Nivå & Dimension & Utfallsmått \\ \hline
+Nivå 1. Hälsostatus & Överlevnad, hälsa & Mortalitet, funktion, livskvalitet, smärta, återgång till dagligt liv/arbete \\ \hline
+Nivå 2. Återhämtningsfas/ konvalescens & Tid för återhämtning, komplikationer/biverkningar & Tid till påbörjad behandling, tid till återgång till arbete, smärta, sjukhusvistelsens längd, biverkningar \\ \hline
+Nivå 3. Långtidsresultat & Bibehållen hälsa, suboptimalt vårdutfall & Funktionsnivå, förmåga att klara sig själv, ny behandling, smärta \\ \hline
+\end{tabular}
+\end{table}
+
+Till skillnad från utfallsmått baseras Processmått  på vårdprocessen och beskriver i första hand hur vårdarbetet utförs jämfört med praxis. Processmått delas i sin tur upp i direkta och indirekta. Processmått lämpar sig bättre för att utvärdera processer inom verksamheten. Exempel på processmått är: “tillsattes medicinering x inom en bestämd tidsram” och “y utsatt minst z dagar preoperativt” (Nordenström, 2014, s. XX).
+ 
+Det är inte trivialt att bestämma hur vårdkvaliteten skall mätas. De två olika kvalitetsutvärderingsmåtten har olika för- och nackdelar men ytterst handlar det om vilket perspektiv som undersökningen skall ha. Utfallsmått lämpar sig för undersökningar på högre nivå exempelvis en regional undersökning medan processmått är mer fruktbart på exempelvis avdelningsnivå. Tabell XX illustrerar för- och nackdelar med respektive metod. (Nordenström, 2014, s. XX).
+
+\begin{table}[h]
+\centering
+\caption{För- respektive nackdelar med Process- och utfallsmått}
+\label{mfornack}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+Processmått                                                                                                               & Utfallsmått                                                                                                                                                                                        \\ \hline
+Är sällan uttömmande (-)                                                                                                  & Är ofta viktiga, t.ex. vad gäller mortalitet, komplikationsfrekvens (+)                                                                                                                            \\ \hline
+Behöver regelbundet uppdateras allteftersom ny evidens tas fram (-)                                                       & Samma mått kan användas under lång tid (+)                                                                                                                                                         \\ \hline
+Behöver inte justeras för risk (+)                                                                                        & Justering av risk är komplicerat och kräver olika modeller för olika utfallsmått. (-)                                                                                                              \\ \hline
+Enkelt att få fram data, korta observationstider (+)Kräver mindre populationer (+)Endast beskrivande statistik behövs (+) & Kräver stora populationer, ibland långa uppföljningstider, t.ex. 5 år (-)Avancerade statistikbehandling krävs (-)Risk för typ 2-fel d.v.s. skillnader i kvalitet missa p.g.a. förs små studier (-) \\ \hline
+Ger direkt feedback till verksamheten (+)                                                                                 & De flesta kan inte användas för att ge feedback (-)                                                                                                                                                \\ \hline
+\end{tabular}
+\end{table}
+
+Fördelen med utfallsmått är att dessa ger en mer komplett bild av patientens upplevda resultat, och att dessa mått kan användas under längre tid utan att behöva uppdateras vartefter behandligsmetoder uppdateras. Processmått har fördelen att dessa är enklare och inte kräver statistiska modeller, stora populationer och ger mer direkt återkoppling till verksamheten. 
+ 
+Porter (2010) menar att processmått inte avspeglar patientvärdet och betonar vikten av att istället använda ett eller gärna en kombination av relevanta utfallsmått. Exakt vilka mått som bör användas beror på patientens diagnos/diagnoser. Däremot menar Nordenström (2014) att processmått säger mer om kvalitet hos en vårdorganisation, då det tydligare avspeglar kvalitetsrelaterade skillnader. Problematiken med kvalitetens bidrag till utfall sammanfattas av Nordenström;
+
+\textit{“God kvalitet ger bra utfall men dålig kvalitet ger inte alltid ett dåligt utfall”}
+
+\subsection{Att mäta kostnad}
+
+Den andra delen av värdeskapandet, utöver kvalitetsarbetet, är kostnadsarbetet. Kostnad syftar till hela vårdens utnyttjande i form av alla direkta och indirekta kostnader. Den totala kostnaden per patient (KPP) relaterar inte bara till kostnaden för en behandling utan innefattar också återbesök, transporter, och medicinering etc. (Nordenström, 2014, s. 91-105). 
+
+\subsection{Justering}
+
+Ett problem framförallt med utfallsmått är att det inte bara är kvaliteten på vården som påverkar exempelvis huvuvida en patient överlever efter en operation. Detta exemplifieras i tabell XX där det illustreras hur livsstils- och socioekonomiska faktorer har inverkan på den förväntade livslängden. Det finns även svenska studier som påvisar socioekonomiska faktorers inverkan på förväntad livslängd. Resultat från en studie av Folkhälsomyndigheten (2006) visade att medellivslängde varierade kraftigt inom Stockholm. T.ex. så skiljer sig medellivslängden med drygt 5 år mellan Danderyd och Sundbybergs stad (Folkhälsomyndigheten, 2006).
+
+\begin{table}[h]
+\centering
+\caption{Påverkbara faktorer för den förväntade livslängden,}
+\label{livslangd}
+\begin{tabular}{|p{6cm}|p{6cm}|}
+\hline
+Faktor, grad av påverkan (\%)    & Komponenter                                                                                                                        \\ \hline
+Livsstilsfaktorer, 40\%          & Motion, diet, tobaksanvändning, alkoholvanor, säker sex.                                                                           \\ \hline
+Socioekonomiska faktorer, 30\%   & Utbildningsnivå, arbete, familjestöd, vänner, socialt nätverk.                                                                     \\ \hline
+Sjukvård, 20\%                   & Sjukvårdens kvalitet, tillgång till sjukvård. \\ \hline
+
+Fysiska omgivningsfaktorer, 10\% & Boendemiljö, arbetsplatssäkerhet, trafiksäkerhet, brandskydd, polisskydd, cykelhjälm, säkerhetsbälte, flytväst, etc.               \\ \hline
+\end{tabular}
+\end{table}
+
+Även om denna undersökning endast avser den förväntade livslängden är det viktigt att ha i åtanke vid utvärdering av utfallsmått. Ett sjukhus som behandlar en population där majoriteten är omotionerande rökare kommer sannolikt uppvisa sämre utfallsvärden än ett sjukhus med en liknande population där ingen röker och alla motionerar regelbundet, även om kvaliteten på vården är likvärdig.
+
+Vid jämförelse av värdeskapande hos olika vårdenheter är det viktigt att ha i åtanke att det finns olika orsaker till att utfallet kan variera, där vårdkvalitet bara är en förklaring. Det finns många patientrelaterade faktorer som också kan påverka utfallet, exempelvis har det visat sig att faktorer såsom, kön, ålder, typ och svårighetsgrad av sjukdom, förekomst av multipla sjukdomar kan ha stor inverkan. Att korrigera för dessa faktorer kallas för case-mix-justering och är mycket viktigt för att jämföra värdeskapande mellan olika institutioner på ett rättvist och fruktbart sätt, något som är en central del i VBV konceptet. (Nordström, 2014, s. 68)
+
+Avsaknaden av Case-mix-justering kan leda till att jämförelse (s.k. benchmarking) av vårdgivare och enheter får direkt motsatta konsekvenser. Exempel på detta är ett engelskt kvalitetsregister, Healthcare Commission Star Rating of UK Hospitals. Det fick läggas ner p.g.a. omfattande kritik i linje med att “rankingen utvecklats till ett perverst system som skrämmer patienterna och allmänheten i onödan och leder till en demoralisering av en hårt arbetande vårdpersonal”. Det medgavs senare från en minister att rankingen “inte avspeglade den verkliga kvaliteten i vården och att systemet gav upphov till fler problem än det löste”. (Nordenström, 2014, s. 72)
+
+\subsection{Sammanfattning av teori}
+
+Inom VBV är en central process att mäta och jämföra värdeskapandet inom och mellan institutioner. Det blir således viktigt att mäta kvalitet och kostnad. Kvalitet kan mätas genom process- och utfallsmått. Det finns för och nackdelar med båda sätten att mäta kvalitet och valet bör baseras på vilket perspektiv mätningen avser. En viktig del i VBV-arbetet är att jämföra värdeskapandet mellan olika vårdinstitutioner, detta är dock inte helt enkelt att göra på ett rättvist sätt. Det är inte bara kvaliteten på vården som påverkar utfallet hos patienten; livsstil och socioekonomiska faktorer är exempelvis också i hög grad bidragande. För att kunna jämföra värdeskapande mellan olika institutioner är det därför önskvärt att korrigera för faktorer som påverkar utfall och kostnad utan att vara relaterade till vården. En korrigering av detta slag kallas för case-mix-justering. Den andra delen i värdeskapandet, kostnaden innefattar alla kostnader behandlingen utav en diagnos/diagnoser skapar. Figur XX illustrerar värdeskapandet och de faktorer som detta innefattar.
+
+\noindent\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{varde}
+\captionof{figure}{Värde}
+\label{fig:varde}            
+\end{minipage}
+
+\section{Metod och data}
+
+I detta arbete används en kvantitativ ansats för att jämföra värdeskapandet på två av Karolinskas hjäftinfarktsavdelningar. Den kvantitativa metoden lämpar sig väl eftersom syftet är att mäta värdeskapandet inom avdelningarna (Waters, 2011, s. 4). Den kvantitativa metoden som är tänkt är Case-mix-justering vilket i stort går ut på att normera för skillander mellan populationer. 
+
+Data som används för den kvantitativa analysen är hämtad direkt från Karolinska och innehåller information om alla patienter som drabbats och vårdats för en eller flera hjärtinfarkter under kalenderåret 2013. Att data kommer direkt från Karolinskas patientdatabas ger förutsättningar för en god reabilitet.
+
+I detta arbete används även information från litteratur och kortare intervjuer; detta främst för att beskriva bakgrund, skapa den teoretiska referensramen samt i metodutformningen.
+
+Designen utav detta experiment grundas i metoden CRISP-DM, en arbetsflödesmodell för projekt inom informationsutvinning, som är en av de vanligaste metoderna för denna typen av projekt. (KDnuggets, 2007). Metoden består av sex faser:
+
+\begin{enumerate}
+  \item Val av studieobjekt vars syfte är att förstå problemet som studeras samt formulera en frågeställning som är möjlig att besvara genom de tänkta metoderna.
+  \item Dataförståelse vars syfte är att samla in all data, bekanta sig med denna och komma till insikter om kvaliteten på informationen.
+  \item Förbehandling av data där alla förberedelser gör för att nå det dataset som kommer användas vid modelleringen.
+  \item Modellbygge där modelleringstekniker väljs ut och appliceras på det förberedda datasetet.
+  \item Evaluering där modellen utvärderas för att se om den lämpar sig för för det studerade problemet.
+  \item Implementering där modellen används för att lösa den avsedda uppgiften.
+\end{enumerate}
+
+I figur X framgår en schematisk bild över arbetsförloppet som använts i detta arbete. Det är viktigt att komma ihåg att ett arbete av denna typen ofta är en iterativ process där tidigare genomförda faser omarbetas allt eftersom nya insikter skapas i senare steg. (Chapman et. al, 2000). I detta arbete omarbetades exempelvis vilka parametrar som ingår i modellen (Förberedelse av data) efter att den första modellen tagits fram för att skapa och utvärdera flera potentiella modeller.
+
+\noindent\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{Data.png}
+\captionof{figure}{Experimentdesign}
+\label{fig:design}            
+\end{minipage}
+\\
+
+Implementationen består i detta arbete av en case-mix-justering som genomförs i tre steg: uppskatting av kontrollvariablers inverkan, generering av prediktion på patientnivå samt aggregering och justering på sjukhusnivå (Department of Health, 2012). En mer detaljerad beskrivning av case-mix-justeringen återfinns i avsnitt XX. 
+\subsection{Val av studieobjekt}
+
+Den population som valts som objekt i denna studie är hjärtinfarkspatienter vid Karolinska. Det finns flera anledningar till detta val. Då en del i syftet är att studera värdeskapande är det en fördel att studera en vårdgivare som jobbar med implementeringen av VBV. Då syftet också är att jämföra två enheter lämpar sig Karolinska bra eftersom de har två universitetssjukhus, ett i Huddinge och ett i Solna, vilka just för hjärtinfarkter visat sig ha skillnad i överlevnad (Hälso- och sjukvård, 2013).
+
+Som redogjorts för tidigare i teorikapitlet är det långt ifrån själklart hur en studie av detta slag väljer att mäta värdeskapande. I detta arbete mäts kvaliteten genom ett utfallsmått nämligen “30 dagars mortalitet”. Valet gjordes i samråd med Erik Wiklund vid Karolinska. Att istället för utfallsmått använda processmått hade varit enklare statistiskt men eftersom en del av syftet är att se hur populationsegenskaperna påverkar utfallet faller det sig naturligt att använda ett utfallsmått. Utfallsmått belyser också patientvärdet tydligare än processmått (Porter, 2010) vilket är en stark anledning att man väljer att styra enligt VBV för att komma till rätta med kritiken mot NPM. 30 dagars mortalitet är ett av de vanligast förekommande utfallsmåtten som används i Sverige idag (Wiklund, 2015) och är extra intressant eftersom de två enheterna presterat över respektive under rikssnittet för dessa mått (Hälsa och Sjukvård, 2013). En viktig del i metodvalet för detta arbete har varit att bestämma hur kvalitetskapandet mäts. Porter (2010) hävdar att kvalitet bör ses som summan av alla utfall hos patienten, något som kan anses ge en mer komplett bild av värdeskapandet. Nordenström anser att processmått också innehåller viktig information om värdeskapande. Valet av kvalitetsmått skulle i detta arbetet kunnat gjorts annorlunda, något som skulle kunna påverka studiens resultat.
+
+Det är viktigt att ha i åtanke att datat inte innehåller någon information om dödsorsak, det är således inte säkert att hjärtinfarkten lett till dödsfall hos de patienter som avlidit inom 30 dagar efter de behandlats för hjärtinfarkt. Information om dödsorsak hade ökat validiteten i denna studie men fanns tyvärr inte tillgängligt.
+
+Det är möjligt att Karoliskas två studerade patientpopulationer har mindre diversitet än om sjukhus från mer geografiskt skilda områden studerats. Detta är dock något som ligger utanför syftet i denna studie.
+
+\subsection{Datainsamling}
+
+\subsubsection{Data}
+
+Det data som används i detta arbete har erhållits från Sektionen för Strategiska projekt, analys och visualisering vid Karolinska Sjukhuset. De patienter som ligger till grund för denna studie hämtades från ett kvalitetsregister och innehåller alla patienter som lagts in för vård av hjärtinfarkt under kalenderåret 2013, totalt 1190 patienter. Kvalitetsregistret innehåller bland annat biometrisk information samt mortalitet för olika tidshorisonter efter behandling. Dessa patienters kompletta vårdhistorik har funnits att tillgå via ett vårdhistoriksregister som innehåller infomation om alla vårdkontakter patienten haft. Det utdrag som erhölls bestod av utdrag från vårdhistoriksregistret ett år före hjärtinfarkten till ett år efter, totalt innehåller detta data information om 19684 vårdtillfällen. Vårdhistoriksregistret innehåller bland annat information om var patienten behandlats, av vilken anledning samt till vilken kostnad. Datat från Karolinska har även kompletterats med socio-ekonomiska data då dessa i tidigare rapporter visat sig påverka risken för hjärtinfarkt (Chaix et al., 2007). Socio-ekonomisk data har hämtats från Statistiska centralbyrån (2013) och innehåller information om medelinkomst samt medelutbildningsnivå för olika postnummer. Det hade varit önskvärt att ha tillgång till data på individnivå föra att öka validiteten men då denna information inte funnits att tillgå har de socio-ekonomiska parametrarna skattats till medelvärdet för individernas postnummer.
+
+\subsubsection{Integritet}
+
+Då datat innehåller patientdata på personnivå kan det vara känslig information för de berörda individerna. I det erhållna datat är personnumren krypterade för att öka integriteten. I denna rapport kommer ingen information rörande specifika vårdfall publiceras med hänsyn till integriteteten för patienterna (Sekaran, 2003, s. 51).
+
+\subsection{Förbehandling av data}
+
+\subsubsection{Parametrar}
+
+Vid genomförandet av case-mix justeringen är en viktig del att välja vilka parametrar som inkluderas i modellbygget. Endast variabler som tros ha medicinsk signifikans bör inkluderas i modelleringen. (Department of Health, 2012, s.7). De parametrar som valts ut till detta arbete har baserats på litteraturstudier inom området. Parametrarna finns presenterade i Tabell XX, där även beskrivande statistik och antal saknade värden finns att tillgå.
+
+
+
+Bara parametrar som tros vara medicinsk signifikanta samt visat sig vara statistiskt signifikanta har tagits med i modellen. Initialt har parametrar som i Hjärt- och lungfondens rapport “Hjärtinfarkt” beskrivs som riskfaktorer för hjärtinfarkt inkluderats, detta inkluderar parametrar såsom, rökning, hypertoni (högt blodtryck), hyperlidemi (höga blodfetter), övervikt (BMI) samt diabetes (Hjärt-Lungfonden, 2013). Även snusning lyfts i vissa raporter fram som en riskfaktor (Bolinder, 2006). Som tidigare nämnts finns också korrelationer mellan risken att drabbas för hjärtinfarkt och en patients socio-ekonomiska situation därför har parametrar som utbildningsnivå och medelinkomst i patientens kommun inkluderats (Chaix et al., 2007).
+
+Däremot visade det sig vid en jämföreselse av utbilningsnivå och medelinkomst att de, föga förvånande, korrelerade starkt. Därför togs beslutet att endast använda medelinkomst i modelleringen.
+
+Varje vårdhändelse i vårhistorikregistret hade en tillhörande kostnad vilka aggregerades för att ta fram kostnad per patient. Kostanden har beräknats genom att för alla patienter ta med alla typer av kostnader som går att relatera till hjärtinfarkten; dessa inkluderar, operationskostnader, återbesök, medicinering etc. Att summera alla kostnader som är relaterade till just hjärtinfarkten gjordes genom att alla vårdhändelser som är markerade som indexhändelse (Första inläggningen för hjärtinfarkt) eller där händelsen är markerad med en “Akut hjärtinfarkt” eller “Hjärtinfarkt”. Noterbart är att andra följdkostnader som inte är markerade som hjärtinfarkt i vårdhistoriksregistret men ändå kan vara knutna till hjärtinfarkten inte kunnat inkluderats.
+
+
+Variabelurvalet består av både kategorivariabler och mätvariabler. Exempel på kategorivariabel är “Sysselsättning” som består av ett begränsat antal kategorier och således mäts på nomialskala. “Ålder vid ankomstdataum” är ett exempel på en mätvariabel som anger hur mycket eller lite av en viss egenskap en viss obeservation har, i detta fall ålder. Typ av variabel påverkar både dess beskrivande statistik och hur de kan användas i en modell (Edling \& Hedström, 2003, s. 17). Det är går t.ex. inte att tala om medelvärde eller standardavvikelse för en kategorivariabel och för att använda dem i en modell krävs att de dummykodas (Edling \& Hedström, 2003, s. 53 \& 102).
+
+\begin{table}[htbp]
+\centering
+\caption{Caption}
+\label{tabl:alder}    
+{\footnotesize
+\begin{tabular}{llrrrrr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{std.av.}$ \\ 
+  \hline
+Ålder vid ankomstdatum. & Ja &   86 &  49.0 &   95.0 &  78.1 &  10.6 \\ 
+   & Nej & 1076 &  33.0 &   98.0 &  67.5 &  12.4 \\ 
+   \hline
+ & Samtliga & 1162 &  33.0 &   98.0 &  68.2 &  12.6 \\ 
+   \hline
+BMI & Ja &   86 &  14.0 &   38.0 &  24.5 &   3.8 \\ 
+   & Nej & 1076 &  14.0 &   45.0 &  27.3 &   4.4 \\ 
+   \hline
+ & Samtliga & 1162 &  14.0 &   45.0 &  27.1 &   4.4 \\ 
+   \hline
+Antal.diagnoser & Ja &   86 &   1.0 &    9.0 &   3.5 &   2.0 \\ 
+   & Nej & 1076 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+ & Samtliga & 1162 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+Medelinkomst & Ja &   86 & 211.2 &  332.7 & 266.7 &  35.7 \\ 
+   & Nej & 1076 & 203.3 &  399.9 & 258.9 &  36.5 \\ 
+   \hline
+ & Samtliga & 1162 & 203.3 &  399.9 & 259.5 &  36.5 \\ 
+   \hline
+Kostnad.patient & Ja &   86 &   5.0 & 1178.1 & 146.3 & 191.4 \\ 
+   & Nej & 1076 &  10.4 & 2255.5 & 117.3 & 126.9 \\ 
+   \hline
+ & Samtliga & 1162 &   5.0 & 2255.5 & 119.4 & 132.9 \\ 
+   \hline
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{} 
+\label{}
+{\footnotesize
+\begin{tabular}{ll|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & $\mathbf{\%}$ \\ 
+  \hline
+Kön & Kvinna & 334 & 28.1 \\ 
+   & Man & 856 & 71.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 290 & 24.4 \\ 
+   & Arbetslöshet & 23 & 1.9 \\ 
+   & Pensionär & 714 & 60.0 \\ 
+   & Sjukskrivning & 31 & 2.6 \\ 
+   & Studier/Övrigt & 8 & 0.7 \\ 
+   & missing & 124 & 10.4 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 428 & 36.0 \\ 
+   & Ex-rökare >1 mån & 324 & 27.2 \\ 
+   & Rökare & 296 & 24.9 \\ 
+   & missing & 142 & 11.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 796 & 66.9 \\ 
+   & Ex-snusare >1 mån & 19 & 1.6 \\ 
+   & Snusare & 55 & 4.6 \\ 
+   & missing & 320 & 26.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 319 & 26.8 \\ 
+   & Nej & 855 & 71.8 \\ 
+   & missing & 16 & 1.3 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 290 & 24.4 \\ 
+   & Nej & 895 & 75.2 \\ 
+   & missing & 5 & 0.4 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 586 & 49.2 \\ 
+   & Nej & 595 & 50.0 \\ 
+   & missing & 9 & 0.8 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad.hyperlipedemi & Ja & 360 & 30.2 \\ 
+   & Nej & 818 & 68.7 \\ 
+   & missing & 12 & 1.0 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 88 & 7.4 \\ 
+   & Nej & 1082 & 90.9 \\ 
+   & missing & 20 & 1.7 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 10013 & 8 & 0.7 \\ 
+   & 11001 & 653 & 54.9 \\ 
+   & 11002 & 529 & 44.5 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+
+\end{table}
+
+
+\subsubsection{Saknade eller okända värden}
+Ett problem inför modelleringen var att behandla saknade värden i datat. Som framgår i tabell XX saknades värden på flertalet variabler. Till att börja med saknades information om “30 dagars mortalitet” för 20 av patienterna. Dessa 20 patienter togs bort då “30 dagars mortalitet” är målvariabel i modellen och dessa data således inte kan användas. Dessutom var det 8 av patienterna som hade skrivits ut ifrån en annan vårdenhet än Solna eller Huddinge, även dessa 8 togs bort från datat då de inte tillförde någon information för jämförelsen. Efter att dessa data hade tagits bort reducerades datamängden från 1190 patienter till 1162.
+
+Flera av de parametrar som ansågs viktiga för modelleringen innehäll saknade värden. Dessvärre var det även en större mängd av de parametrar som ansågs vara av intresse för modellen som innehöll saknade värden eller ökända värden. Om alla de patienter med saknade eller okända värden i de utvalda fälten skulle tagits bort hade populationen reducerats från 1162 till 733, se tabell XX. För att undvika detta gjordes en bootstrap för de saknade och okända fälten. Detta gjordes genom att ersätta de saknade och okända fälten med nya värden samplade ur fördelningen av de kända värdena från samma fält (Efron, 1994). Ett komplett dataset hade varit önskvärt, då det givit en högre reabilitet. Ett alternativ till att använda bootstrap hade varit att helt enkelt utesluta alla patienter där ett eller flera värden saknas, dock hade detta också minskat reabiliteten då helhetsbilden rubbas. 
+
+Till skillnad från andra liknande studier har saknade värden i detta arbete genererats med hjälp av bootstrap istället för att tagits bort. Anledningen till detta är att vår studerade population varit betydligt mindre och att bortfallet av patienter hade skiljt sig betydligt mellan de två studerade enheterna. Värt att notera är att, enligt överläkare Thomas Järnberg,  har ofta patienter med saknade värden mer komplexa sjukdomsbilder. 
+
+\subsubsection{Felregistrerade värden och omkodning av variabler}
+Vid genomgång av datat upptäktes vissa värden som kraftigt avvek från vad som ansågs rimligt. Detta var färmst för BMI där en patient hade ett registrerat BMI på 244 och en hade 53. När längd och vikt undersöktes för dessa patienter var det tydligt att det måste ha skett en felregistrering då ena patienten t.ex. vägde mer än den var lång. Dessa värden togs bort och bootstrapp användes igen för att fylla dessa värden. Flera patienter uppvisade kostnader långt högre än genomsnitten, det största var 2,25 mkr i förhållande till genomsnitten på 120 tkr. Dessa tilläts dock vara kvar då de ansågs korrekta.
+
+Vissa av parametrarna, exempelvis “Ex-snusare >1 mån” i fältet “Snusare” och “Studier/Övrigt” i fältet “Sysselsättning” förekom väldigt sällan i förhållande till hela datat, 1,6 respektive 0,7 \% av populationen. För att undvika att variansen för dessa variabler blev orimligt hög kodades de om. “Ex-snusare >1 mån” kodades om till “Snusare” och för att vara konsekvent gjordes även motsvarande för “Ex-rökare >1 mån”. Under Sysselsättning gjordes en likande omkodning där “Arbetslöshet”, “Sjukskrivning” och “Studier/Övrigt” alla kodades om till den nya kategorien “Övrigt”.
+
+\subsubsection{Datautforskning}
+
+Ett första steg i datautforskningen var att studera beskrivande statistik för datat uppdelat på de patienter som avlidit inom 30 dagar från första besöket och de som inte gjort det. Detta finns presenterad i tabell XX och tabell XX. Redan här går det att utläsa skillnader i variabler som påverkar sannolikheten att överleva. Det går t.ex. att utläsa i tabell XX att genomsnittlig “Ålder vid ankomstdatum” skiljer sig markant mellan de två grupperna. De som avlider i genomsnitt är 78,1 år vid ankomst medan de som överlever är 67,5 år. Detta är en indikation på att “Ålder vid ankomstdatum” kommer att ha en hög föklaringsgrad i modellen, vilket också förväntas baserat på de studier som ligger till grund för dataurvalet. Även Sysselsättning “Pensionär” är överrepresenterad bland dem som avlidit. 90 \% av de som avlidit var pensionärer trots att denna grupp endast stod för 66 \% av hela patientpopulationen. Detta ligger i linje med att ålder kraftigt påverkar sannolikheten att överleva en hjärtinfarkt. Andra signifikanta skillnader som ligger i linje med resultaten av Hjärt-Lungfondens studie är att “Antal diagnoser”, “Diabetes” och “Hypertoni” påverkar överlevnadssannolikheten negativt. Däremot är det svårt att utläsa någon effekt av “Snusning”, “Rökning” och “Medelinkomst”. Motsatt mot vad som sägs i Hjärt-Lungfondens studie om risken ett drabbas av hjärtinfarkt tycks ett högre BMI öka chansen att överleva en hjärtinfarkt. Vad gäller kostnaden för patienter som avlidit är denna något högre än för de som överlever, 146,3 tkr jämfört med 117,3 tkr, däremot har gruppen som avlidit högre standardavvikelse.
+
+\begin{table}[htbp]
+\centering
+\caption{}
+\label{}
+{\footnotesize
+\begin{tabular}{llrrrrr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{std.av.}$ \\ 
+  \hline
+Ålder vid ankomstdatum. & Ja &   86 &  49.0 &   95.0 &  78.1 &  10.6 \\ 
+   & Nej & 1076 &  33.0 &   98.0 &  67.5 &  12.4 \\ 
+   \hline
+ & Samtliga & 1162 &  33.0 &   98.0 &  68.2 &  12.6 \\ 
+   \hline
+BMI & Ja &   86 &  14.0 &   38.0 &  24.5 &   3.8 \\ 
+   & Nej & 1076 &  14.0 &   45.0 &  27.3 &   4.4 \\ 
+   \hline
+ & Samtliga & 1162 &  14.0 &   45.0 &  27.1 &   4.4 \\ 
+   \hline
+Antal.diagnoser & Ja &   86 &   1.0 &    9.0 &   3.5 &   2.0 \\ 
+   & Nej & 1076 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+ & Samtliga & 1162 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+Medelinkomst & Ja &   86 & 211.2 &  332.7 & 266.7 &  35.7 \\ 
+   & Nej & 1076 & 203.3 &  399.9 & 258.9 &  36.5 \\ 
+   \hline
+ & Samtliga & 1162 & 203.3 &  399.9 & 259.5 &  36.5 \\ 
+   \hline
+Kostnad.patient & Ja &   86 &   5.0 & 1178.1 & 146.3 & 191.4 \\ 
+   & Nej & 1076 &  10.4 & 2255.5 & 117.3 & 126.9 \\ 
+   \hline
+ & Samtliga & 1162 &   5.0 & 2255.5 & 119.4 & 132.9 \\ 
+   \hline
+\end{tabular}
+}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{}
+\label{}
+{\footnotesize
+\begin{tabular}{ll|rr|rr|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n_{\mathrm{Ja}}}$ & $\mathbf{\%_{\mathrm{Ja}}}$ & $\mathbf{n_{\mathrm{Nej}}}$ & $\mathbf{\%_{\mathrm{Nej}}}$ & $\mathbf{n_{\mathrm{all}}}$ & $\mathbf{\%_{\mathrm{all}}}$ \\ 
+  \hline
+Kön & Kvinna & 27 & 31.4 & 299 & 27.8 & 326 & 28.1 \\ 
+   & Man & 59 & 68.6 & 777 & 72.2 & 836 & 71.9 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 3 & 3.5 & 321 & 29.8 & 324 & 27.9 \\ 
+   & Pensionär & 80 & 93.0 & 688 & 63.9 & 768 & 66.1 \\ 
+   & Övrigt & 3 & 3.5 & 67 & 6.2 & 70 & 6.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 36 & 41.9 & 440 & 40.9 & 476 & 41.0 \\ 
+   & Rökare & 50 & 58.1 & 636 & 59.1 & 686 & 59.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 83 & 96.5 & 983 & 91.4 & 1066 & 91.7 \\ 
+   & Snusare & 3 & 3.5 & 93 & 8.6 & 96 & 8.3 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 30 & 34.9 & 283 & 26.3 & 313 & 26.9 \\ 
+   & Nej & 56 & 65.1 & 793 & 73.7 & 849 & 73.1 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 30 & 34.9 & 255 & 23.7 & 285 & 24.5 \\ 
+   & Nej & 56 & 65.1 & 821 & 76.3 & 877 & 75.5 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 50 & 58.1 & 531 & 49.4 & 581 & 50.0 \\ 
+   & Nej & 36 & 41.9 & 545 & 50.6 & 581 & 50.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad.hyperlipedemi & Ja & 25 & 29.1 & 335 & 31.1 & 360 & 31.0 \\ 
+   & Nej & 61 & 70.9 & 741 & 68.9 & 802 & 69.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 11001 & 45 & 52.3 & 593 & 55.1 & 638 & 54.9 \\ 
+   & 11002 & 41 & 47.7 & 483 & 44.9 & 524 & 45.1 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 86 & 100.0 & 0 & 0.0 & 86 & 7.4 \\ 
+   & Nej & 0 & 0.0 & 1076 & 100.0 & 1076 & 92.6 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{} 
+\label{}
+{\footnotesize
+\begin{tabular}{llrrrrr}
+ \textbf{Variable} & \textbf{Levels} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{s}$ \\ 
+  \hline
+Ålder..vid.ankomstdatum. & 11001 &  638 &  33.0 &   98.0 &  67.8 &  12.3 \\ 
+   & 11002 &  524 &  34.0 &   95.0 &  68.8 &  12.9 \\ 
+   \hline
+ & all & 1162 &  33.0 &   98.0 &  68.2 &  12.6 \\ 
+   \hline
+BMI & 11001 &  638 &  14.0 &   42.0 &  27.0 &   4.2 \\ 
+   & 11002 &  524 &  14.0 &   45.0 &  27.2 &   4.7 \\ 
+   \hline
+ & all & 1162 &  14.0 &   45.0 &  27.1 &   4.4 \\ 
+   \hline
+Antal.diagnoser & 11001 &  638 &   1.0 &   10.0 &   2.7 &   1.6 \\ 
+   & 11002 &  524 &   1.0 &   13.0 &   3.2 &   2.1 \\ 
+   \hline
+ & all & 1162 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+Medelinkomst & 11001 &  638 & 203.3 &  399.9 & 264.2 &  36.9 \\ 
+   & 11002 &  524 & 211.2 &  332.7 & 253.7 &  35.2 \\ 
+   \hline
+ & all & 1162 & 203.3 &  399.9 & 259.5 &  36.5 \\ 
+   \hline
+Kostnad.patient & 11001 &  638 &   5.0 & 2255.5 & 115.6 & 145.0 \\ 
+   & 11002 &  524 &   8.8 & 1178.1 & 124.2 & 116.4 \\ 
+   \hline
+ & all & 1162 &   5.0 & 2255.5 & 119.4 & 132.9 \\ 
+   \hline
+\end{tabular}
+}
+
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{} 
+\label{}
+{\footnotesize
+\begin{tabular}{ll|rr|rr|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n_{\mathrm{Solna}}}$ & $\mathbf{\%_{\mathrm{Solna}}}$ & $\mathbf{n_{\mathrm{Huddinge}}}$ & $\mathbf{\%_{\mathrm{Huddinge}}}$ & $\mathbf{n_{\mathrm{Samtliga}}}$ & $\mathbf{\%_{\mathrm{Samtliga}}}$ \\ 
+  \hline
+Kön & Kvinna & 169 & 26.5 & 157 & 30.0 & 326 & 28.1 \\ 
+   & Man & 469 & 73.5 & 367 & 70.0 & 836 & 71.9 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 190 & 29.8 & 134 & 25.6 & 324 & 27.9 \\ 
+   & Pensionär & 411 & 64.4 & 357 & 68.1 & 768 & 66.1 \\ 
+   & Övrigt & 37 & 5.8 & 33 & 6.3 & 70 & 6.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 273 & 42.8 & 203 & 38.7 & 476 & 41.0 \\ 
+   & Rökare & 365 & 57.2 & 321 & 61.3 & 686 & 59.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 592 & 92.8 & 474 & 90.5 & 1066 & 91.7 \\ 
+   & Snusare & 46 & 7.2 & 50 & 9.5 & 96 & 8.3 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 153 & 24.0 & 160 & 30.5 & 313 & 26.9 \\ 
+   & Nej & 485 & 76.0 & 364 & 69.5 & 849 & 73.1 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 134 & 21.0 & 151 & 28.8 & 285 & 24.5 \\ 
+   & Nej & 504 & 79.0 & 373 & 71.2 & 877 & 75.5 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 291 & 45.6 & 290 & 55.3 & 581 & 50.0 \\ 
+   & Nej & 347 & 54.4 & 234 & 44.7 & 581 & 50.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad hyperlipedemi & Ja & 173 & 27.1 & 187 & 35.7 & 360 & 31.0 \\ 
+   & Nej & 465 & 72.9 & 337 & 64.3 & 802 & 69.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 11001 & 638 & 100.0 & 0 & 0.0 & 638 & 54.9 \\ 
+   & 11002 & 0 & 0.0 & 524 & 100.0 & 524 & 45.1 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 45 & 7.0 & 41 & 7.8 & 86 & 7.4 \\ 
+   & Nej & 593 & 93.0 & 483 & 92.2 & 1076 & 92.6 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+
+\end{table}
+
+
+
+
+
+
+
+
+
+I tabell XX och tabell XX presenteras beskrivande statistik för datat uppdelat på vårdenheterna Solna och Huddinge. Vid första anblick tycks det inte vara någon skillnad på “Ålder vid ankomstdatum” mellan de två vårdeneheterna, detta är däremot inte hela sanningen. Om fördelningen av “Ålder vid ankomstdatum” jämförs, se figur XX, går det att se att Huddinge har en större andel patienter som var över 78 år vid ankomstdatum. Huddinge har även ett högre genomsnitt på “Antal diagnoser” samt större andel med “Tidigare hjärtinfarkt”, “Diabetes”, “Hypertoni” och “Tabellbehandlad hyperlidemi”. Vad gäller det socioekonomiska har patienterna vid Solna något högre medelinkomst än i Huddinge.
+
+Till skillnad mot resultaten av Socialstyrelsens Öppna Jämförelse, som grundar sig i data fram till och med 2012, har Solna här en lägre mortalitetsgrad än Huddinge i detta data. Solna har även en lägre genomsnittlig kostnad än Huddinge och har därmed ett högre ojusterat värdeskapande. I figur XX går det att se tydligare att Huddinge har en högre andel patienter med hög kostnad.
+
+\noindent\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{alder.png}
+\captionof{figure}{Åldersfördelning}
+\label{fig:alder}            
+\end{minipage}
+\\
+
+\noindent\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{kostnad.png}
+\captionof{figure}{Kostnadsfördelning}
+\label{fig:kostnad}            
+\end{minipage}
+\\
+
+\subsection{Modellbygge}
+
+För att kunna jämföra värdeskapandet mellan de två avdelningarna skattas 3 modeller för kvalitet samt 3 för kostnad. I samråd med Lars Lindhagen, statistiker som jobbat med liknande analyser av hjärtpatienter, valdes att skapa 3 modeller vilka skiljer sig åt genom att olika parametrar tagits med. De variabler som inkluderas i en case-mix-modell skall tros ha både medicinsk samt ha bevisad statistisk signifikans (Nelson, 2014 s. 16-19). För att skapa de tre modellerna har antalet parametrar reducerats i två steg baserat på statistisk signifikans vilket illustreras i Appendix XX.
+
+För att modellera kostnaden har linjär regression använts. Linjär regression används för att undersöka sambandet mellan en eller flera parametrar och en kontinuerlig responsvariabel, vilket är fallet för just kostnad. Parametrarna får sedan olika vikter beroende på i vilken grad de påverkar responsvariabeln. (Edling \& Hedström, 2003). Dessa tre modeller och dess tillhörande variabler visas i Tabell XX.
+
+För att modellera kvaliteten kan inte linjär regression användas eftersom responsvariabeln, “30 dagars mortalitet” är binär. Istället används här logistisk regression, en regressionsmodell vars prediktioner alltid faller inom det korrekta sannolikhetsintervallet 0-1. Även i vid logistisk regression får de förklarande variblerna olika vikter beroende på i vilken utsträckning de påverkar responsvariabeln. (Edling \& Hedström, 2003). De tre modellerna och tillhörande variabler visas i Appendix XX. 
+
+\subsection{Validering}
+
+För att välja modell till case-mix-justeringen valdes i båda fallen modellen med lägst “Akaike Information Criteria” (AIC). Att mäta AIC är ett sätt att utvärdera och välja modell utifrån flera kandidatmodeller. AIC väger samman förklaringsgrad och komplexitet hos modellerna och beräknar ett värde där det är önskvärt att modellen har så lågt AIC som möjligt.
+(Burnham \& Anderson, 2004). Valet av prediktionsmodell har valts utifrån lägst AIC för både kostnad- och kvalitetsmodell. För kostnad innebar detta modell 2 i Tabell XX och för kvalitet modell 2 i Tabell XX.
+
+\subsection{Implementering}
+
+\subsubsection{Case/mix}
+
+När modellen har generetat prediktioner för överlevnad och kostnad för alla patienter i datat aggregeras dessa prediktioner på vårdenhetsnivå för att sedan användas för justeringen. 
+
+De modeller som tagits fram används för att prediktera utfall av kvalitet och kostnad för de två vårdenheterna. Ett Relativt Utfallsmått (RU) (Ekvationsnummer XX och XX) skapas sedan genom att beräkna kvoten mellan det faktiska utfallet och modellens prediktion.
+
+\begin{equation}
+\label{eq:metod1}
+	RU_i = Faktiskt \,\,  utfall \,\, patient \,\, i/Predikterat \,\, utfall \,\, patient \,\, i
+\end{equation}
+
+\begin{equation}
+\label{eq:metod2}
+	RU_{enhet} = \frac{1}{N} \sum_{i=1}^{N} RU_i
+\end{equation}
+
+
+RU visar förhållandet mellan vårdenhetenens utförande i relation till vad som kan förväntas av dem givet dess patientpopulation. Ett RU på 1,4 indikerar att vårdenheten har 40 \% bättre resultat än vad som kan förväntas av dem givet den patientinformation som finns, medan 0,8 indikerar ett 20 \% sämre resultat (Department of Health, 2012)
+
+Nästa steg i Case-mix är att göra själva justeringen. Det görs genom att dela de faktiska utfallet för vårdenheten med dess RU enligt. (ekvationsnummer XX). Det justerade utfallet blir en indikation på vilket utfall som hade väntats av vårdenheten givet att de hade behandlat en “normalpopulation”. Grundtanken med justeringen är alltså att ta bort effekter av att vårdenheterna har olika typer av patienter. Det är även möjligt att använda case-mix för att beräkna vilket utfall som kan förväntas av vårdenheten givet den patientpopulation de faktiskt har, i detta fall multipliceras istället det faktiska utfallet med RU (Nelson, 2014 s. 16-19).
+
+Justerad Utfall = Faktiskt Utfall/RU
+
+\section{Resultat och Analys}
+
+\begin{table}[h]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|p{2cm}|p{3cm}|p{1cm}|p{3cm}|p{2cm}|}
+\hline
+         & 30 dagars mortalitet (\%) & RU    & Justerad 30 dagars mortalitet (\%) & Skillnad (\%) \\ \hline
+Solna    & 7,0                      & 0,969 & 7,3                               & 0,3          \\ \hline
+Huddinge & 7,8                      & 1,037 & 7,5                               & -0,3         \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|p{2cm}|p{3cm}|p{1cm}|p{3cm}|p{2cm}|}
+\hline
+         & Medelkostnad (tkr) & RU    & Justerad medelkostnad (tkr) & Skillnad (tkr) \\ \hline
+Solna    & 115,6              & 0,975 & 118,5                       & 2,9            \\ \hline
+Huddinge & 124,2              & 1,030 & 120,5                       & -3,7           \\ \hline
+\end{tabular}
+\end{table}
+
+Som redovisas i teorikapitlet är det inte bara ett sjukhus verksamhet som påverkar kostnad och kvalitet utan även patientpopulationens egenskaper kommer att påverka dessa. Detta styrks även i de modeller som tagits fram i detta arbete. En komplett effektkarta för samtliga parametrar och i vilken grad dessa påverkar kvalitet respektive kostnad återfinns i Appendix X respektive Appendix X.
+
+Det framgår i avsnitt “Datautforskning” att de två olika sjukhusenheterna har olika egenskaper hos patientpopulationerna, vilket tyder på olika förutsättningar att leverera samma värdeskapande. För att jämföra värdeskapandet mellan dessa enheter blir det därför viktigt att case-mix-justera för dessa skillnader.
+
+Kvaliteten som i detta arbete mäts genom 30 dagars mortalitet skiljer sig mellan de två enheterna innan case-mix-justeringen där Solna har en lägre mortalitet (7,0 \%) jämfört med Huddinge (7,8 \%). I den framtagna modellen för att prediktera mortalitet är den klart mest bidragande faktorern hög ålder, en egenskap där populationen i Huddinge generellt är äldre. Att Huddinge har en svårare population ur kvalitetssynpunkt syns i det relativa utfallet (1,037) jämfört med Solna (0,969). Att modellen ger ett RU mindre än 1 för Solna och ett RU över 1 för Huddinge indikerar att Solna ligger något under medan Huddinge ligger något över vad de förväntas presetera givet dess patientpopulationer. Båda ligger däremot relativt nära 1 vilket tyder på att de båda vårdenheterna inte avviker nämnvärt. Kvalitetsskillnaden minskar efter case-mix-justeringen från 0,8 till 0,2 procentenheter. Case-mix-justering har således en neutraliserade effekt på kvalitetsskillnaden mellan de två sjukhusenheterna, och det är blir svårt att utifrån denna undersökning uttala sig som vilket sjukhus som har den högst värdeskapande organisationen.  
+
+Även kostnaden skiljer sig åt mellan de de två enheterna innan justeringen genomförs där Huddinge har en högre medelkostnad per patient (124,2 tkr) jämfört med Solna (115,6 tkr). I den framtagna modellen för att prediktera kostnad är de två mest bidragande parametrarna antal diagnoser och huruvida patienten har diabetes eller ej. Huddinge har generellt patienter med fler diagnoser samt större andel diabetiker vilket tyder på att de får svårare att hålla nere kostnaderna. Att Huddinge har en dyrare patientpopulation syns i det relativa utfallet (1,030) jämfört med Solna (0,975). Även här är skillnaderna små. Justerat för populationerna minskar skillnaden i medelkostnad från 8,6 tkr till 2,0 tkr. Case-mix-justeringen har därmed även en neutraliserande effekt på kostnadsskillnaden.
+
+Att justeringen inte får större effekt kan bero på att de variabler som används vid modelleringen är baserade på studier för risken att få en hjärtinfarkt, inte risken att avlida av den eller kostnader associerade med behandlingen av den. Resultatet av modelleringsarbetet tyder på att ålder och BMI är de enda parametrarna som har hög förklaringsgrad för mortalitetsutfall. Om jämförelsen istället var baserad på kostnaden sjukhuset har för att behandla hjärtinfarkt i förhållande till antalet patienter i dess upptagningsområde eller hur många som drabbas av hjärtinfarkt i området skulle sannolikt socioekonomiska och livsstilsfaktorer på få större inverkan på modellen. Om VBV ska ha fokus på patienten viktigt att titta mer på dess allmänna hälsa inte bara fokusera på utfallsmått av den högsta nivån som mortalitet.
+
+Som tidigare nämnts är det enligt VBV eftersträvansvärt att skapa så hög kvalitet i förhållande till kostnad som möjligt. I denna rapport kan vi således definiera värde som överlevnad (\%) dividerat med kostnad (tkr). Värdeskapandet före och efter case-mix-justeringen visas i Tabell XX.
+
+\begin{table}[h]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|p{3cm}|p{3cm}|p{2.5cm}|p{2.5cm}|}
+\hline
+Övelevnad (\%) / Kostnad (tkr)           & Värdeskapande innan case-mix & Värdeskapande efter case-mix & Case-mix påverkan på resultat \\ \hline
+Solna                       & 0.8044                       & 0.7822                       & -0.0222                       \\ \hline
+Huddinge                    & 0.7423                       & 0.7676                       & 0.0253                        \\ \hline
+Skillnad mellan vårdenheter & 0.0621                       & 0.0146                       &                               \\ \hline
+\end{tabular}
+\end{table}
+
+De reformer som påverkat den svenska vård- och omsorgssektorn de senaste åren har lett till att sättet dessa organisationer styrs innehåller starka inslag av NPM. NPM har dock mött stark kritik från flera håll och grundar sig i att vårdorganisationer flyttat fokus från patienter och istället arbetar mot ekonomiska incitament. Dock, är många överens om att vissa delar inom NPM kan vara fruktbara, framförallt gällande vikten av att mäta och målstyra verksamheten samt att möjliggöra jämförelser mellan organisationer.
+
+NPM har växt fram som ett resultat av ett ökat kostnadsfokus, något som fått kritik att patientfokuset blivit lidande. VBV har växt fram delvis som ett svar mot denna kritiken och erbjuder ett värdefokus som utgår ifrån patienten. Tydligt är att VBV aspirerar på att komma tillrätta med det bortglömda patientfokuset. Det finns samtidigt många element som ingår i både NPM och VBV begreppen såsom vikten att mäta och jämföra, något som är allt annat än enkelt. Om VBV skall kunna få full effekt krävs utredningar för framtagande och ramverk med tydligare instruktioner än vad som är fallet i dagsläget. Det vore också fruktbart att analysera effekterna av den VBV implementering som i dagsläget sker inom svenska vårdenheter, dels gentemot vårdenheter med andra styrmodeller men också jämföra vården före och efter implementeringen.
+
+Ett ökat patientfokus är något som framhålls som en av de stora förtjänsterna vid en implementation av VBV. Dock är det komplext att mäta det värdeskapande som är grundläggande vid VBV-styrning. Vilka parametrar som inkluderas i kvalitets- och kostnadsmåttet har stor effekt på utfallet av dessa och det råder ingen tydlig konsensus över hur dessa ramverk bör utformas. Porter (2010) menar exempelvis att kvalitet bör ses som summan av alla utfallsmått hos en patient medan processmått är mindre tillämpbara ur ett VBV-perspektiv eftersom dessa inte har ett lika tydligt patientfokus. Nordenström (2014) menar å andra sidan att processmått visst innehåller information som i högsta grad är relevant ur VBV-perspektivet. I detta arbete har kvalitet mätts genom mortalitet, ett utfallsmått som endast avser den högsta nivån av utfallsmått som presentras i Tabell X. I en mer omfattande studie skulle fler parametrar, från samtliga nivåer, kunna inkluderas i kvalitetsmåttet för att skapa en mer komplett bild av värdeskapandet.
+
+Vid jämförelse av värdeskapande mellan organisationer är det viktigt att justera för att dessa behandlar olika populationer och således har olika förutsättningar att producera samma värde. Även vid denna typen av justering är det avgörande vilka parametrar som inkluderas samt vilka metoder som används. Klinisk kunskap krävs för att bestämma vilka parametrar som tros vara kliniskt relevanta. Statistisk kunskap krävs för att avgöra de statiska modeller som används och undersöka vilka parametrar som är statistiskt signifikanta. Dessa val hade i detta arbete också kunnat ske på ett annat sätt vilket kunnat generera annorlunda resultat.
+
+Detta arbete visar på svårigheterna både att mäta värde och att jämföra värde mellan enheter. Just denna komplexitet är något som lyfts fram som kritik mot VBV. Vissa hävdar att det är en omöjlighet att kunna utforma dessa mätningar på ett rättvist sätt och att VBV således blir en omöjlighet att implementera i praktiken.
+
+Det är tydligt att det vid en implementation av VBV blir det av stor vikt att utforma ramverk för hur mätningar sker och vilka avgränsningar som görs. Detta är ett viktigt och troligtvis mödosamt arbete som blir helt avgörande för det resultat implementationen uppnår.
+
+
+\section{Slutsats}
+
+Syftet med detta arbete är att jämföra värdeskapandet för två olika vårdenheter på Karolinska. Det framgår att det med den valda metoden finns skillnader i värdeskapandet där Solna har ett högre värdeskapande jämfört med Huddinge. Det finns skillnader mellan de populationer de två vårdenheterna behandlar som påverkar värdeskapandet där Huddinge har en svårare population. Justeringen för populationernas effekt har därmed en neutraliserande effekt på skillnaden, dock uppnår Solna ett något högre värdeskapande även efter denna populationsjustering.
+
+Att utforma en jämförelse av värdeskapande är svårt, inte minst eftersom det inte råder någon konsensus om vilka parametrar och modeller som bör användas. Vid implementering av VBV blir således ett väldigt viktigt steg att utforma ramverk och procedurer för att mäta och jämföra värde. 
+
+\subsection{Framtida forskning}
+
+Resultaten av detta arbete antyder att det finns behov att flera saker undersöks närmre. Till att börja med finns det behov av vidare studier i hur ett värdemått konstrueras. Detta arbete har endast använt sig av ett utfallsmått och sannolikt krävs det en sammanvägning av flera för att skapa ett mått som mäter värdeskapande, med fokus på patienten. Rent konkret skulle utfallsmått relaterade till patientens livskvalitet efter incidenten behöva vägas ihop med dess upplevelse av bemötande etc. vid vårdkontakten. En komplicerande faktor är att denna forskning krävs för alla de olika diagnoser där värde ska mätas.
+
+Vidare forskning krävs även en utformning av modeller för case-mix-justering. Parameterval i detta arbete grundade sig på studier om risk att drabbas av hjärtinfarkt. Om flera utfallsmått ska vägas samman behöver justerings-modeller för dessa mått även konstrueras. Även detta kompliceras av att olika diagnoser kräver olika utfallsmått vilket kommer att innebära att en stor mängd case-mix-modeller behöver skapas.
+
+Gällande VBV finns det ännu inte mycket forskning på resultat av implementering under svenska förhållanden. Inom detta område finns det utrymme för en mängd forskning. Mest uppenbart vore att jämföra resultat före och efter implementering. Då VBV gör anspråk på ökat patientfokus bör även detta beläggas med mer empiri innan fullskalig implementation påbörjas.
+
+\section{Referenser}
+
+\newgeometry{left=3cm,bottom=0.1cm}
+{\setstretch{1.0}
+
+\section{Appendix 1 - Kvalitetsmodell}
+
+\begin{table}[!htbp] \centering 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Död.30dgr} \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ KönMan & $-$0.388 &  &  \\ 
+  & (0.263) &  &  \\ 
+  & & & \\ 
+ Ålder..vid.ankomstdatum. & $-$0.058$^{***}$ & $-$0.056$^{***}$ & $-$0.067$^{***}$ \\ 
+  & (0.014) & (0.014) & (0.011) \\ 
+  & & & \\ 
+ BMI & 0.132$^{***}$ & 0.141$^{***}$ & 0.118$^{***}$ \\ 
+  & (0.033) & (0.032) & (0.031) \\ 
+  & & & \\ 
+ Antal.diagnoser & $-$0.145$^{**}$ & $-$0.115$^{*}$ &  \\ 
+  & (0.062) & (0.060) &  \\ 
+  & & & \\ 
+ Medelinkomst & $-$0.005 &  &  \\ 
+  & (0.003) &  &  \\ 
+  & & & \\ 
+ SysselsättningPensionär & $-$1.341$^{**}$ & $-$1.206$^{*}$ &  \\ 
+  & (0.641) & (0.643) &  \\ 
+  & & & \\ 
+ SysselsättningÖvrigt & $-$1.417$^{*}$ & $-$1.394$^{*}$ &  \\ 
+  & (0.849) & (0.843) &  \\ 
+  & & & \\ 
+ RökningRökare & $-$0.309 &  &  \\ 
+  & (0.247) &  &  \\ 
+  & & & \\ 
+ SnusningSnusare & 1.131$^{*}$ & 0.916 &  \\ 
+  & (0.630) & (0.619) &  \\ 
+  & & & \\ 
+ Tidigare.hjärtinfarktNej & 0.139 &  &  \\ 
+  & (0.277) &  &  \\ 
+  & & & \\ 
+ DiabetesNej & 0.699$^{**}$ & 0.631$^{**}$ &  \\ 
+  & (0.273) & (0.262) &  \\ 
+  & & & \\ 
+ HypertoniNej & 0.070 &  &  \\ 
+  & (0.246) &  &  \\ 
+  & & & \\ 
+ Tablettbehandlad.hyperlipedemiNej & $-$0.474 &  &  \\ 
+  & (0.291) &  &  \\ 
+  & & & \\ 
+ Constant & 6.554$^{***}$ & 3.928$^{***}$ & 4.352$^{***}$ \\ 
+  & (1.854) & (1.453) & (1.291) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 1,162 & 1,162 & 1,162 \\ 
+Log Likelihood & $-$253.053 & $-$257.716 & $-$268.124 \\ 
+Akaike Inf. Crit. & 534.107 & 531.431 & 542.248 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+}
+
+\newpage
+
+\section{Appendix 2 - Kostnadsmodell}
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Kostnad.patient} \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ KönMan & $-$2.663 &  &  \\ 
+  & (8.946) &  &  \\ 
+  & & & \\ 
+ Ålder..vid.ankomstdatum. & $-$0.820$^{*}$ & $-$0.299 &  \\ 
+  & (0.452) & (0.325) &  \\ 
+  & & & \\ 
+ BMI & $-$1.543$^{*}$ & $-$1.347 &  \\ 
+  & (0.923) & (0.904) &  \\ 
+  & & & \\ 
+ Antal.diagnoser & 11.877$^{***}$ & 12.588$^{***}$ & 11.764$^{***}$ \\ 
+  & (2.320) & (2.270) & (2.234) \\ 
+  & & & \\ 
+ Medelinkomst & 0.050 &  &  \\ 
+  & (0.106) &  &  \\ 
+  & & & \\ 
+ SysselsättningPensionär & 17.010 &  &  \\ 
+  & (11.709) &  &  \\ 
+  & & & \\ 
+ SysselsättningÖvrigt & $-$4.746 &  &  \\ 
+  & (17.261) &  &  \\ 
+  & & & \\ 
+ RökningRökare & 5.042 &  &  \\ 
+  & (7.958) &  &  \\ 
+  & & & \\ 
+ SnusningSnusare & 0.620 &  &  \\ 
+  & (14.117) &  &  \\ 
+  & & & \\ 
+ Tidigare.hjärtinfarktNej & 20.067$^{**}$ & 16.579$^{*}$ &  \\ 
+  & (10.028) & (9.109) &  \\ 
+  & & & \\ 
+ DiabetesNej & $-$25.016$^{**}$ & $-$26.635$^{***}$ & $-$20.600$^{**}$ \\ 
+  & (9.881) & (9.737) & (9.433) \\ 
+  & & & \\ 
+ HypertoniNej & $-$5.800 &  &  \\ 
+  & (8.246) &  &  \\ 
+  & & & \\ 
+ Tablettbehandlad.hyperlipedemiNej & $-$6.636 &  &  \\ 
+  & (9.806) &  &  \\ 
+  & & & \\ 
+ Constant & 169.024$^{***}$ & 147.505$^{***}$ & 100.613$^{***}$ \\ 
+  & (54.560) & (40.259) & (11.785) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 1,162 & 1,162 & 1,162 \\ 
+Log Likelihood & $-$7,303.056 & $-$7,305.316 & $-$7,308.612 \\ 
+Akaike Inf. Crit. & 14,634.110 & 14,622.630 & 14,623.230 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+\newpage
+\section{Appendix 3 - }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{llrrrrr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{std.av.}$ \\ 
+  \hline
+Ålder vid ankomstdatum. & Ja &   86 &  49.0 &   95.0 &  78.1 &  10.6 \\ 
+   & Nej & 1076 &  33.0 &   98.0 &  67.5 &  12.4 \\ 
+   \hline
+ & Samtliga & 1162 &  33.0 &   98.0 &  68.2 &  12.6 \\ 
+   \hline
+BMI & Ja &   86 &  14.0 &   38.0 &  24.5 &   3.8 \\ 
+   & Nej & 1076 &  14.0 &   45.0 &  27.3 &   4.4 \\ 
+   \hline
+ & Samtliga & 1162 &  14.0 &   45.0 &  27.1 &   4.4 \\ 
+   \hline
+Antal.diagnoser & Ja &   86 &   1.0 &    9.0 &   3.5 &   2.0 \\ 
+   & Nej & 1076 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+ & Samtliga & 1162 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+Medelinkomst & Ja &   86 & 211.2 &  332.7 & 266.7 &  35.7 \\ 
+   & Nej & 1076 & 203.3 &  399.9 & 258.9 &  36.5 \\ 
+   \hline
+ & Samtliga & 1162 & 203.3 &  399.9 & 259.5 &  36.5 \\ 
+   \hline
+Kostnad.patient & Ja &   86 &   5.0 & 1178.1 & 146.3 & 191.4 \\ 
+   & Nej & 1076 &  10.4 & 2255.5 & 117.3 & 126.9 \\ 
+   \hline
+ & Samtliga & 1162 &   5.0 & 2255.5 & 119.4 & 132.9 \\ 
+   \hline
+\end{tabular}
+}
+\end{table}
+
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{ll|rr|rr|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n_{\mathrm{Ja}}}$ & $\mathbf{\%_{\mathrm{Ja}}}$ & $\mathbf{n_{\mathrm{Nej}}}$ & $\mathbf{\%_{\mathrm{Nej}}}$ & $\mathbf{n_{\mathrm{all}}}$ & $\mathbf{\%_{\mathrm{all}}}$ \\ 
+  \hline
+Kön & Kvinna & 27 & 31.4 & 299 & 27.8 & 326 & 28.1 \\ 
+   & Man & 59 & 68.6 & 777 & 72.2 & 836 & 71.9 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 3 & 3.5 & 321 & 29.8 & 324 & 27.9 \\ 
+   & Pensionär & 80 & 93.0 & 688 & 63.9 & 768 & 66.1 \\ 
+   & Övrigt & 3 & 3.5 & 67 & 6.2 & 70 & 6.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 36 & 41.9 & 440 & 40.9 & 476 & 41.0 \\ 
+   & Rökare & 50 & 58.1 & 636 & 59.1 & 686 & 59.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 83 & 96.5 & 983 & 91.4 & 1066 & 91.7 \\ 
+   & Snusare & 3 & 3.5 & 93 & 8.6 & 96 & 8.3 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 30 & 34.9 & 283 & 26.3 & 313 & 26.9 \\ 
+   & Nej & 56 & 65.1 & 793 & 73.7 & 849 & 73.1 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 30 & 34.9 & 255 & 23.7 & 285 & 24.5 \\ 
+   & Nej & 56 & 65.1 & 821 & 76.3 & 877 & 75.5 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 50 & 58.1 & 531 & 49.4 & 581 & 50.0 \\ 
+   & Nej & 36 & 41.9 & 545 & 50.6 & 581 & 50.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad.hyperlipedemi & Ja & 25 & 29.1 & 335 & 31.1 & 360 & 31.0 \\ 
+   & Nej & 61 & 70.9 & 741 & 68.9 & 802 & 69.0 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 11001 & 45 & 52.3 & 593 & 55.1 & 638 & 54.9 \\ 
+   & 11002 & 41 & 47.7 & 483 & 44.9 & 524 & 45.1 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 86 & 100.0 & 0 & 0.0 & 86 & 7.4 \\ 
+   & Nej & 0 & 0.0 & 1076 & 100.0 & 1076 & 92.6 \\ 
+   \hline
+ & Samtliga & 86 & 100.0 & 1076 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+\end{table}
+
+
+\newpage
+\section{Appendix - X }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{llrrrrr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{s}$ \\ 
+  \hline
+Ålder vid ankomstdatum. & 11001 &  638 &  33.0 &   98.0 &  67.8 &  12.3 \\ 
+   & 11002 &  524 &  34.0 &   95.0 &  68.8 &  12.9 \\ 
+   \hline
+ & all & 1162 &  33.0 &   98.0 &  68.2 &  12.6 \\ 
+   \hline
+BMI & 11001 &  638 &  14.0 &   42.0 &  27.0 &   4.2 \\ 
+   & 11002 &  524 &  14.0 &   45.0 &  27.2 &   4.7 \\ 
+   \hline
+ & all & 1162 &  14.0 &   45.0 &  27.1 &   4.4 \\ 
+   \hline
+Antal.diagnoser & 11001 &  638 &   1.0 &   10.0 &   2.7 &   1.6 \\ 
+   & 11002 &  524 &   1.0 &   13.0 &   3.2 &   2.1 \\ 
+   \hline
+ & all & 1162 &   1.0 &   13.0 &   2.9 &   1.8 \\ 
+   \hline
+Medelinkomst & 11001 &  638 & 203.3 &  399.9 & 264.2 &  36.9 \\ 
+   & 11002 &  524 & 211.2 &  332.7 & 253.7 &  35.2 \\ 
+   \hline
+ & all & 1162 & 203.3 &  399.9 & 259.5 &  36.5 \\ 
+   \hline
+Kostnad.patient & 11001 &  638 &   5.0 & 2255.5 & 115.6 & 145.0 \\ 
+   & 11002 &  524 &   8.8 & 1178.1 & 124.2 & 116.4 \\ 
+   \hline
+ & all & 1162 &   5.0 & 2255.5 & 119.4 & 132.9 \\ 
+   \hline
+\end{tabular}
+}
+\caption{} 
+\label{}
+\end{table}
+
+\newpage
+\section{Appendix 6 - }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{ll|rr|rr|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n_{\mathrm{Solna}}}$ & $\mathbf{\%_{\mathrm{Solna}}}$ & $\mathbf{n_{\mathrm{Huddinge}}}$ & $\mathbf{\%_{\mathrm{Huddinge}}}$ & $\mathbf{n_{\mathrm{Samtliga}}}$ & $\mathbf{\%_{\mathrm{Samtliga}}}$ \\ 
+  \hline
+Kön & Kvinna & 169 & 26.5 & 157 & 30.0 & 326 & 28.1 \\ 
+   & Man & 469 & 73.5 & 367 & 70.0 & 836 & 71.9 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 190 & 29.8 & 134 & 25.6 & 324 & 27.9 \\ 
+   & Pensionär & 411 & 64.4 & 357 & 68.1 & 768 & 66.1 \\ 
+   & Övrigt & 37 & 5.8 & 33 & 6.3 & 70 & 6.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 273 & 42.8 & 203 & 38.7 & 476 & 41.0 \\ 
+   & Rökare & 365 & 57.2 & 321 & 61.3 & 686 & 59.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 592 & 92.8 & 474 & 90.5 & 1066 & 91.7 \\ 
+   & Snusare & 46 & 7.2 & 50 & 9.5 & 96 & 8.3 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 153 & 24.0 & 160 & 30.5 & 313 & 26.9 \\ 
+   & Nej & 485 & 76.0 & 364 & 69.5 & 849 & 73.1 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 134 & 21.0 & 151 & 28.8 & 285 & 24.5 \\ 
+   & Nej & 504 & 79.0 & 373 & 71.2 & 877 & 75.5 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 291 & 45.6 & 290 & 55.3 & 581 & 50.0 \\ 
+   & Nej & 347 & 54.4 & 234 & 44.7 & 581 & 50.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad hyperlipedemi & Ja & 173 & 27.1 & 187 & 35.7 & 360 & 31.0 \\ 
+   & Nej & 465 & 72.9 & 337 & 64.3 & 802 & 69.0 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 11001 & 638 & 100.0 & 0 & 0.0 & 638 & 54.9 \\ 
+   & 11002 & 0 & 0.0 & 524 & 100.0 & 524 & 45.1 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 45 & 7.0 & 41 & 7.8 & 86 & 7.4 \\ 
+   & Nej & 593 & 93.0 & 483 & 92.2 & 1076 & 92.6 \\ 
+   \hline
+ & all & 638 & 100.0 & 524 & 100.0 & 1162 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+\caption{} 
+\label{}
+\end{table}
+
+
+\newpage
+\section{Appendix 7 - }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{lrrrrrr}
+ \textbf{Variabel} & $\mathbf{n}$ & \textbf{Min} & \textbf{Max} & $\mathbf{\bar{x}}$ & $\mathbf{std.av.}$ & \textbf{Saknade} \\ 
+  \hline
+Ålder..vid.ankomstdatum. & 1187 &     33.0 &     103.0 &     68.2 &     12.7 &  3 \\ 
+  BMI & 1122 &     14.0 &     244.0 &     27.3 &      7.9 & 68 \\ 
+  Antal.diagnoser & 1190 &      1.0 &      14.0 &      2.9 &      1.8 &  0 \\ 
+  Medelinkomst & 1168 & 203287.1 &  563920.6 & 259898.6 &  37659.3 & 22 \\ 
+  Utskr\_Inr & 1190 &  10013.0 &   11002.0 &  10994.8 &     80.8 &  0 \\ 
+  Kostnad.patient & 1190 &   5037.9 & 2255458.4 & 119623.0 & 133542.2 &  0 \\ 
+  \end{tabular}
+}
+\caption{} 
+\label{}
+\end{table}
+
+
+
+\newpage
+\section{Appendix 8 - }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{ll|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & $\mathbf{\%}$ \\ 
+  \hline
+Kön & Kvinna & 334 & 28.1 \\ 
+   & Man & 856 & 71.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 290 & 27.2 \\ 
+   & Arbetslöshet & 23 & 2.2 \\ 
+   & Pensionär & 714 & 67.0 \\ 
+   & Sjukskrivning & 31 & 2.9 \\ 
+   & Studier/Övrigt & 8 & 0.8 \\ 
+   \hline
+ & all & 1066 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 428 & 40.8 \\ 
+   & Ex-rökare >1 mån & 324 & 30.9 \\ 
+   & Rökare & 296 & 28.2 \\ 
+   \hline
+ & all & 1048 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 796 & 91.5 \\ 
+   & Ex-snusare >1 mån & 19 & 2.2 \\ 
+   & Snusare & 55 & 6.3 \\ 
+   \hline
+ & all & 870 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 319 & 27.2 \\ 
+   & Nej & 855 & 72.8 \\ 
+   \hline
+ & all & 1174 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 290 & 24.5 \\ 
+   & Nej & 895 & 75.5 \\ 
+   \hline
+ & all & 1185 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 586 & 49.6 \\ 
+   & Nej & 595 & 50.4 \\ 
+   \hline
+ & all & 1181 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad.hyperlipedemi & Ja & 360 & 30.6 \\ 
+   & Nej & 818 & 69.4 \\ 
+   \hline
+ & all & 1178 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 88 & 7.5 \\ 
+   & Nej & 1082 & 92.5 \\ 
+   \hline
+ & all & 1170 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+\caption{} 
+\label{}
+\end{table}
+
+\newpage
+\section{Appendix 9 - }
+
+\begin{table}[ht]
+\centering
+{\footnotesize
+\begin{tabular}{ll|rr}
+ \textbf{Variabel} & \textbf{Värde} & $\mathbf{n}$ & $\mathbf{\%}$ \\ 
+  \hline
+Kön & Kvinna & 334 & 28.1 \\ 
+   & Man & 856 & 71.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Sysselsättning & Arbete & 290 & 24.4 \\ 
+   & Arbetslöshet & 23 & 1.9 \\ 
+   & Pensionär & 714 & 60.0 \\ 
+   & Sjukskrivning & 31 & 2.6 \\ 
+   & Studier/Övrigt & 8 & 0.7 \\ 
+   & missing & 124 & 10.4 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Rökning & Aldrig rökare & 428 & 36.0 \\ 
+   & Ex-rökare >1 mån & 324 & 27.2 \\ 
+   & Rökare & 296 & 24.9 \\ 
+   & missing & 142 & 11.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Snusning & Aldrig varit snusare & 796 & 66.9 \\ 
+   & Ex-snusare >1 mån & 19 & 1.6 \\ 
+   & Snusare & 55 & 4.6 \\ 
+   & missing & 320 & 26.9 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Tidigare.hjärtinfarkt & Ja & 319 & 26.8 \\ 
+   & Nej & 855 & 71.8 \\ 
+   & missing & 16 & 1.3 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Diabetes & Ja & 290 & 24.4 \\ 
+   & Nej & 895 & 75.2 \\ 
+   & missing & 5 & 0.4 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Hypertoni & Ja & 586 & 49.2 \\ 
+   & Nej & 595 & 50.0 \\ 
+   & missing & 9 & 0.8 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Tablettbehandlad.hyperlipedemi & Ja & 360 & 30.2 \\ 
+   & Nej & 818 & 68.7 \\ 
+   & missing & 12 & 1.0 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Död.30dgr & Ja & 88 & 7.4 \\ 
+   & Nej & 1082 & 90.9 \\ 
+   & missing & 20 & 1.7 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+Utskr\_Inr & 10013 & 8 & 0.7 \\ 
+   & 11001 & 653 & 54.9 \\ 
+   & 11002 & 529 & 44.5 \\ 
+   \hline
+ & all & 1190 & 100.0 \\ 
+   \hline
+\hline
+\end{tabular}
+}
+\caption{} 
+\label{}
+\end{table}
+
+
+\restoregeometry
+
+
+%\bibliography{harvard}
+\end{document}
