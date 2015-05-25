@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  25 MAY 2015 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  25 MAY 2015 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,39 +350,350 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(./harvard.aux
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen126
+\pgfutil@tempdimb=\dimen127
 
-LaTeX Warning: Label `' multiply defined.
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box27
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen128
+\pgf@y=\dimen129
+\pgf@xa=\dimen130
+\pgf@ya=\dimen131
+\pgf@xb=\dimen132
+\pgf@yb=\dimen133
+\pgf@xc=\dimen134
+\pgf@yc=\dimen135
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count93
+\c@pgf@countb=\count94
+\c@pgf@countc=\count95
+\c@pgf@countd=\count96
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count97
+\pgfsyssoftpath@bigbuffer@items=\count98
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen136
+\pgfmath@count=\count99
+\pgfmath@box=\box28
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count100
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen137
+\pgf@picmaxx=\dimen138
+\pgf@picminy=\dimen139
+\pgf@picmaxy=\dimen140
+\pgf@pathminx=\dimen141
+\pgf@pathmaxx=\dimen142
+\pgf@pathminy=\dimen143
+\pgf@pathmaxy=\dimen144
+\pgf@xx=\dimen145
+\pgf@xy=\dimen146
+\pgf@yx=\dimen147
+\pgf@yy=\dimen148
+\pgf@zx=\dimen149
+\pgf@zy=\dimen150
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen151
+\pgf@path@lasty=\dimen152
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen153
+\pgf@shorten@start@additional=\dimen154
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count101
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen155
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen156
+\pgf@pt@y=\dimen157
+\pgf@pt@temp=\dimen158
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen159
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen160
+\pgf@sys@shading@range@num=\count102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box32
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box33
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen161
+\pgf@nodesepend=\dimen162
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen163
+\pgffor@skip=\dimen164
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count103
+\pgfplotmarksize=\dimen165
+)
+\tikz@lastx=\dimen166
+\tikz@lasty=\dimen167
+\tikz@lastxsaved=\dimen168
+\tikz@lastysaved=\dimen169
+\tikzleveldistance=\dimen170
+\tikzsiblingdistance=\dimen171
+\tikz@figbox=\box34
+\tikz@figbox@bg=\box35
+\tikz@tempbox=\box36
+\tikz@tempbox@bg=\box37
+\tikztreelevel=\count104
+\tikznumberofchildren=\count105
+\tikznumberofcurrentchild=\count106
+\tikz@fig@count=\count107
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count108
+\pgfmatrixcurrentcolumn=\count109
+\pgf@matrix@numberofcolumns=\count110
+)
+\tikz@expandcount=\count111
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+))) (./harvard.aux
+
+LaTeX Warning: Label `tab:raw1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:raw1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:raw2' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:raw2' multiply defined.
 
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `tab:raw1' multiply defined.
 
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `tab:raw2' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:dl1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:dl1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:dl1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:sh1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `tab:sh2' multiply defined.
+
+
+LaTeX Warning: Label `fig:alder' multiply defined.
+
+
+LaTeX Warning: Label `fig:alder' multiply defined.
+
+
+LaTeX Warning: Label `eq:metod1' multiply defined.
+
+
+LaTeX Warning: Label `eq:metod2' multiply defined.
+
+
+LaTeX Warning: Label `eq:metod1' multiply defined.
+
+
+LaTeX Warning: Label `tab:kvalres' multiply defined.
+
+
+LaTeX Warning: Label `tab:varderes' multiply defined.
+
+
+LaTeX Warning: Label `tab:livslangd' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -390,31 +701,31 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `harvard.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen126
-\scratchbox=\box27
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen127
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count112
+\scratchdimen=\dimen172
+\scratchbox=\box38
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen173
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -496,16 +807,26 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 69.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 69.
+(Font)              <6> on input line 70.
+
+<front.pdf, id=4, page=1, 597.23125pt x 845.1575pt>
+File: front.pdf Graphic file (type pdf)
+ <use front.pdf, page 1>
+Package pdftex.def Info: front.pdf, page1 used on input line 74.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
 [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./harvard.toc
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./front
+.pdf>] [2
+
+] (./harvard.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -513,11 +834,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3
 
 ])
-\tf@toc=\write3
-\openout3 = `harvard.toc'.
+\tf@toc=\write4
+\openout4 = `harvard.toc'.
 
- [4]
-Overfull \hbox (0.52385pt too wide) in paragraph at lines 94--95
+ [4] (./harvard.lof)
+\tf@lof=\write5
+\openout5 = `harvard.lof'.
+
+ (./harvard.lot)
+\tf@lot=\write6
+\openout6 = `harvard.lot'.
+
+ [5
+
+]
+Overfull \hbox (0.52385pt too wide) in paragraph at lines 111--112
 []\OT1/cmr/m/n/10 VBV kon-cep-tet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]og 
 kva-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
  []
@@ -526,19 +857,19 @@ kva-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
 
 
 ] [2]
-Overfull \hbox (9.91388pt too wide) in paragraph at lines 111--112
+Overfull \hbox (9.91388pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/10 En []overg^^Wang mot pri-va-ti-se-ring el-ler kvasi-privatise
 ring och d[]armed bort fr^^Wan k[]arninstitutioner.
  []
 
 
-Overfull \hbox (48.83069pt too wide) in paragraph at lines 119--120
+Overfull \hbox (48.83069pt too wide) in paragraph at lines 136--137
 \OT1/cmr/m/n/10 f[]or var-je kro-na); kon-trakts-styr-ning; pre-sta-tions-ers[]
 attningar (t.ex. skol-peng); j[]amf[]orelser/benchmarking
  []
 
 
-Overfull \hbox (0.54747pt too wide) in paragraph at lines 120--121
+Overfull \hbox (0.54747pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/bx/n/10 Disaggeregering och kon-kur-rens: \OT1/cmr/m/n/10 Ska-pan-de
 t av kvasi-marknader, kon-kur-rens-uts[]attning
  []
@@ -546,80 +877,50 @@ t av kvasi-marknader, kon-kur-rens-uts[]attning
 [3] [4] [5] [6] [7
 
 ]
-Underfull \hbox (badness 2662) in paragraph at lines 178--178
+Underfull \hbox (badness 2662) in paragraph at lines 195--195
 []\OT1/cmr/m/n/10 Mortalitet, funk-tion, livs-kva-li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]\OT1/cmr/m/n/10 Niv^^Wa 2.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 []\OT1/cmr/m/n/10 Aterh[]amtningsfas/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]\OT1/cmr/m/n/10 Tid f[]or
+Underfull \hbox (badness 4353) in paragraph at lines 197--197
+[]\OT1/cmr/m/n/10 Bibeh^^Wallen h[]alsa, subop-ti-malt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\OT1/cmr/m/n/10 ^^Waterh[]amtning,
+Underfull \hbox (badness 5519) in paragraph at lines 215--215
+[]\OT1/cmr/m/n/10 Kr[]aver sto-ra po-pu-la-tio-ner, ibland l^^Wanga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\OT1/cmr/m/n/10 kom-pli-ka-tio-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]\OT1/cmr/m/n/10 Niv^^Wa 3.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]\OT1/cmr/m/n/10 Bibeh^^Wallen h[]alsa,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-\OT1/cmr/m/n/10 subop-ti-malt
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 197--197
-\OT1/cmr/m/n/10 kr[]aver oli-ka mo-del-ler f[]or oli-ka ut-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 Kr[]aver sto-ra po-pu-la-tio-ner, ibland
+Overfull \hbox (4.08488pt too wide) in paragraph at lines 209--218
+ [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8]
-Underfull \hbox (badness 3449) in paragraph at lines 225--225
+Underfull \hbox (badness 3449) in paragraph at lines 243--243
 []\OT1/cmr/m/n/10 Utbildningsniv^^Wa, ar-be-te, fa-mil-jest[]od,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 []\OT1/cmr/m/n/10 Sjukv^^Wardens kva-li-tet, tillg^^Wang till
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 228--228
+Underfull \hbox (badness 4156) in paragraph at lines 246--246
 \OT1/cmr/m/n/10 fiks[]akerhet, brand-skydd, po-lis-skydd,
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 228--228
+Underfull \hbox (badness 8056) in paragraph at lines 246--246
 \OT1/cmr/m/n/10 cy-kel-hj[]alm, s[]akerhetsb[]alte, flytv[]ast,
  []
 
@@ -627,83 +928,77 @@ Underfull \hbox (badness 8056) in paragraph at lines 228--228
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-Overfull \hbox (7.71942pt too wide) in paragraph at lines 236--237
+Overfull \hbox (7.71942pt too wide) in paragraph at lines 254--255
 []\OT1/cmr/m/n/10 Avsaknaden av Case-mix-justering kan le-da till att j[]amf[]o
 relse (s.k. bench-mar-king) av v^^Wardgivare
  []
 
-[10] <varde.png, id=59, 545.03625pt x 331.2375pt>
+[10] <varde.png, id=168, 545.03625pt x 331.2375pt>
 File: varde.png Graphic file (type png)
  <use varde.png>
-Package pdftex.def Info: varde.png used on input line 244.
+Package pdftex.def Info: varde.png used on input line 262.
 (pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
  [11 <./varde.png>]
-Overfull \hbox (15.02502pt too wide) in paragraph at lines 253--254
+Overfull \hbox (15.02502pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 un-der ka-len-der^^Waret 2013. Att da-ta kom-mer di-rekt fr^^Wa
 n Ka-ro-lins-kas pa-ti-ent-da-ta-bas ger f[]oruts[]attningar
  []
 
-<Data.png, id=65, 652.4375pt x 527.9725pt>
+<Data.png, id=174, 652.4375pt x 527.9725pt>
 File: Data.png Graphic file (type png)
  <use Data.png>
-Package pdftex.def Info: Data.png used on input line 272.
+Package pdftex.def Info: Data.png used on input line 290.
 (pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--277
+Underfull \hbox (badness 10000) in paragraph at lines 288--295
 
  []
 
 [12
 
-] [13 <./Data.png>] [14] [15] [16] [17]
-Overfull \hbox (7.88602pt too wide) in paragraph at lines 444--445
+] [13 <./Data.png>] [14] [15]
+Overfull \hbox (7.88602pt too wide) in paragraph at lines 441--442
 []\OT1/cmr/m/n/10 Flera av de pa-ra-met-rar som ans^^Wags vik-ti-ga f[]or mo-de
 l-le-ring-en in-neh[]all sak-na-de v[]arden. Dessv[]arre
  []
 
-[18]
-Overfull \hbox (65.13109pt too wide) in paragraph at lines 611--677
+[16] [17] [18]
+Overfull \hbox (65.13109pt too wide) in paragraph at lines 608--674
  [][] 
  []
 
-
-Overfull \hbox (6.35492pt too wide) in paragraph at lines 688--689
-[]\OT1/cmr/m/n/10 I ta-bell XX och ta-bell XX pre-sen-te-ras be-skri-van-de sta
--tistik f[]or da-tat upp-de-lat p^^Wa v^^Wardenheterna
- []
-
-[19] [20] [21] <alder.png, id=101, 909.3975pt x 468.75125pt>
+[19] [20] [21] <alder.png, id=210, 909.3975pt x 468.75125pt>
 File: alder.png Graphic file (type png)
  <use alder.png>
-Package pdftex.def Info: alder.png used on input line 694.
+Package pdftex.def Info: alder.png used on input line 683.
 (pdftex.def)             Requested size: 334.60422pt x 172.46964pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--699
+Underfull \hbox (badness 10000) in paragraph at lines 681--688
 
  []
 
-<kostnad.png, id=102, 914.41624pt x 472.76625pt>
+<kostnad.png, id=211, 914.41624pt x 472.76625pt>
 File: kostnad.png Graphic file (type png)
  <use kostnad.png>
-Package pdftex.def Info: kostnad.png used on input line 702.
+Package pdftex.def Info: kostnad.png used on input line 691.
 (pdftex.def)             Requested size: 334.60422pt x 172.99467pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--707
+Underfull \hbox (badness 10000) in paragraph at lines 689--696
 
  []
 
 [22 <./alder.png> <./kostnad.png>] [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 766--766
+Underfull \hbox (badness 10000) in paragraph at lines 760--760
 []\OT1/cmr/m/n/10 Justerad me-del-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--766
+Underfull \hbox (badness 10000) in paragraph at lines 760--760
 []\OT1/cmr/m/n/10 Skillnad
  []
 
 
-Overfull \hbox (22.19173pt too wide) in paragraph at lines 774--775
+Overfull \hbox (22.19173pt too wide) in paragraph at lines 768--769
 \OT1/cmr/m/n/10 per hos pa-ti-ent-po-pu-la-tio-ner-na, vil-ket ty-der p^^Wa oli
 -ka f[]oruts[]attningar att le-ve-re-ra sam-ma v[]ardeskapande.
  []
@@ -711,46 +1006,290 @@ Overfull \hbox (22.19173pt too wide) in paragraph at lines 774--775
 [25
 
 ]
-Overfull \hbox (0.9405pt too wide) in paragraph at lines 782--783
+Overfull \hbox (0.9405pt too wide) in paragraph at lines 776--777
 []\OT1/cmr/m/n/10 Som ti-di-ga-re n[]amnts []ar det en-ligt VBV ef-ter-str[]ava
 nsv[]art att ska-pa s^^Wa h[]og kva-li-tet i f[]orh^^Wallande
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 790--790
+Underfull \hbox (badness 4366) in paragraph at lines 784--784
 [][]\OT1/cmr/m/n/10 Ovelevnad (%) /
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 790--790
+Underfull \hbox (badness 1552) in paragraph at lines 784--784
 []\OT1/cmr/m/n/10 V[]ardeskapande in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
 []\OT1/cmr/m/n/10 V[]ardeskapande
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
 []\OT1/cmr/m/n/10 Case-mix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--790
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
 \OT1/cmr/m/n/10 p^^Waverkan p^^Wa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
+Underfull \hbox (badness 10000) in paragraph at lines 787--787
 []\OT1/cmr/m/n/10 Skillnad mel-lan
  []
 
 [26] [27] [28] [29
 
-] [30
+]
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 828--829
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 836--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--839
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
+
+ []
+
+[30
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 842--843
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 848--849
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 852--853
+[]\OT1/cmr/m/n/10 Hood, C. (1995). TT-he \New Pub-lic Ma-na-ge-ment" in the 198
+0s: va-ri-a-tions on a the-me.[]Accounting,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
+
+ []
+
+
+Overfull \hbox (28.3306pt too wide) in paragraph at lines 858--859
+[]\OT1/cmr/m/n/10 Nordenstr[]om, J. (2014) V[]ardebaserad v^^Ward kan ge b[]att
+re v^^Wardutfall. L[]akartidningen. 2014;111:CZCR 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--859
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 860--861
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--865
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 866--867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
+
+ []
+
+
+Overfull \hbox (95.55296pt too wide) in paragraph at lines 870--871
+\OT1/cmr/m/n/10 holm: Sve-ri-ges kom-mu-ner och lands-ting.Tillg[]anglig p^^Wa 
+In-ter-net: http://www.socialstyrelsen.se/publikationer2013/2013-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+
+ []
+
+
+Overfull \hbox (22.4416pt too wide) in paragraph at lines 876--877
+[]\OT1/cmr/m/n/10 DN. (2013). Den ol[]onsamma pa-ti-en-ten. H[]amtad 2015-03-20
+, fr^^Wan http://www.dn.se/stories/stories-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
+
+ []
+
+
+Overfull \hbox (13.08061pt too wide) in paragraph at lines 880--881
+[]\OT1/cmr/m/n/10 Karolinska. (2015). Fak-ta om sjuk-hu-set. H[]amtad: 2015-04-
+09, fr^^Wan http://www.karolinska.se/om-
+ []
+
+
+Overfull \hbox (39.44174pt too wide) in paragraph at lines 880--881
+\OT1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen
+--presentationsbroschyrer--organisation/ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+
+Overfull \hbox (245.72565pt too wide) in paragraph at lines 882--883
+[]\OT1/cmr/m/n/10 KDnuggets. (2007). Polls : Da-ta Mi-ning Met-ho-do-lo-gy. H[]
+amtad 2015-05-15, fr^^Wan http://www.kdnuggets.com/polls/2007/data[]mining[]met
+hodology.htm 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
+
+ []
+
+
+Overfull \hbox (0.6917pt too wide) in paragraph at lines 888--889
+[]\OT1/cmr/m/n/10 SCB, (2014). Be-folk-ning-ens ut-bild-ning. H[]amtad 2015-05-
+06, fr^^Wan http://www.scb.se/UF0506/ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
+
+ []
+
+[33]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -783,27 +1322,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 793--793
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [31
+ [34
 
 
-] [32
-
-] [33
-
-] [34
-
-]
-Overfull \hbox (60.86224pt too wide) in paragraph at lines 1117--1183
- [][] 
- []
-
-[35
-
-] [36
-
-] [37
-
-] [38
+] [35
 
 ] (./harvard.aux)
 
@@ -811,13 +1333,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4211 strings out of 493117
- 62167 string characters out of 6135433
- 175363 words of memory out of 5000000
- 7596 multiletter control sequences out of 15000+600000
+ 14028 strings out of 493117
+ 272105 string characters out of 6135433
+ 358501 words of memory out of 5000000
+ 17198 multiletter control sequences out of 15000+600000
  10088 words of font info for 35 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
- 38i,11n,38p,1752b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1791b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -836,10 +1358,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on harvard.pdf (42 pages, 893816 bytes).
+Output written on harvard.pdf (40 pages, 2356510 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 322 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
