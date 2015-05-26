@@ -3,7 +3,6 @@
 \contentsline {section}{\numberline {1}Inledning}{1}
 \contentsline {subsection}{\numberline {1.1}Problemdiskussion}{1}
 \contentsline {subsubsection}{\numberline {1.1.1}Syfte}{2}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {2}Tidigare forskning}{3}
 \contentsline {subsection}{\numberline {2.1}New public management}{3}
 \contentsline {subsection}{\numberline {2.2}V\IeC {\"a}rdebaserad V\IeC {\r a}rd}{5}
@@ -35,39 +34,6 @@
 \contentsline {subsection}{\numberline {7.3}Intervjuer och kommunikation}{33}
 \contentsline {section}{\numberline {8}Appendix 1 - Kvalitetsmodell}{34}
 \contentsline {section}{\numberline {9}Appendix 2 - Kostnadsmodell}{35}
-=======
-\contentsline {subsection}{\numberline {1.2}Tidigare forskning}{2}
-\contentsline {subsubsection}{\numberline {1.2.1}New public management}{2}
-\contentsline {subsubsection}{\numberline {1.2.2}V\IeC {\"a}rdebaserad V\IeC {\r a}rd}{5}
-\contentsline {section}{\numberline {2}Att m\IeC {\"a}ta v\IeC {\"a}rdeskapande}{7}
-\contentsline {subsection}{\numberline {2.1}Att m\IeC {\"a}ta kvalitet}{7}
-\contentsline {subsection}{\numberline {2.2}Att m\IeC {\"a}ta kostnad}{9}
-\contentsline {subsection}{\numberline {2.3}Justering}{9}
-\contentsline {subsection}{\numberline {2.4}Sammanfattning av teori}{10}
-\contentsline {section}{\numberline {3}Metod och data}{12}
-\contentsline {subsection}{\numberline {3.1}Val av studieobjekt}{13}
-\contentsline {subsection}{\numberline {3.2}Datainsamling}{14}
-\contentsline {subsubsection}{\numberline {3.2.1}Data}{14}
-\contentsline {subsubsection}{\numberline {3.2.2}Integritet}{15}
-\contentsline {subsection}{\numberline {3.3}F\IeC {\"o}rbehandling av data}{15}
-\contentsline {subsubsection}{\numberline {3.3.1}Parametrar}{15}
-\contentsline {subsubsection}{\numberline {3.3.2}Saknade eller ok\IeC {\"a}nda v\IeC {\"a}rden}{16}
-\contentsline {subsubsection}{\numberline {3.3.3}Felregistrerade v\IeC {\"a}rden och omkodning av variabler}{18}
-\contentsline {subsubsection}{\numberline {3.3.4}Datautforskning}{18}
-\contentsline {subsection}{\numberline {3.4}Modellbygge}{22}
-\contentsline {subsection}{\numberline {3.5}Evaluering}{23}
-\contentsline {subsection}{\numberline {3.6}Implementering}{23}
-\contentsline {section}{\numberline {4}Resultat och Analys}{25}
-\contentsline {subsection}{\numberline {4.1}Implikationer f\IeC {\"o}r VBV}{26}
-\contentsline {section}{\numberline {5}Slutsats}{29}
-\contentsline {subsection}{\numberline {5.1}Framtida forskning}{29}
-\contentsline {section}{\numberline {6}Referenser}{30}
-\contentsline {subsection}{\numberline {6.1}Publikationer}{30}
-\contentsline {subsection}{\numberline {6.2}Hemsidor}{32}
-\contentsline {subsection}{\numberline {6.3}Intervjuer och kommunikation}{33}
-\contentsline {section}{\numberline {7}Appendix 1 - Kvalitetsmodell}{34}
-\contentsline {section}{\numberline {8}Appendix 2 - Kostnadsmodell}{35}
-\contentsline {section}{\numberline {9}Appendix 3 - Effektplot: Kvalitet}{36}
-\contentsline {section}{\numberline {10}Appendix 4 - Effektplot: Kostnad}{37}
-\contentsline {section}{\numberline {11}Appendix 5 - R-Kod}{38}
->>>>>>> origin/master
+\contentsline {section}{\numberline {10}Appendix 3 - Effektplot: Kvalitet}{36}
+\contentsline {section}{\numberline {11}Appendix 4 - Effektplot: Kostnad}{37}
+\contentsline {section}{\numberline {12}Appendix 5 - R-Kod}{38}

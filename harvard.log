@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  26 MAY 2015 07:40
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.12)  26 MAY 2015 07:29
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  26 MAY 2015 07:52
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
 **harvard.tex
 (./harvard.tex
@@ -680,12 +675,6 @@ LaTeX Warning: Label `tab:livslangd' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `fig:design' multiply defined.
-
-
-LaTeX Warning: Label `fig:design' multiply defined.
-
 )
 \openout1 = `harvard.aux'.
 
@@ -842,49 +831,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-<<<<<<< HEAD
-Overfull \hbox (0.52385pt too wide) in paragraph at lines 113--114
+Overfull \hbox (0.52385pt too wide) in paragraph at lines 114--115
 []\OT1/cmr/m/n/10 VBV kon-cep-tet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]og 
 kva-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
  []
 
 [2]
-Overfull \hbox (9.91388pt too wide) in paragraph at lines 130--131
+Overfull \hbox (9.91388pt too wide) in paragraph at lines 131--132
 []\OT1/cmr/m/n/10 En []overg^^Wang mot pri-va-ti-se-ring el-ler kvasi-privatise
 ring och d[]armed bort fr^^Wan k[]arninstitutioner.
  []
 
 
-Overfull \hbox (48.83069pt too wide) in paragraph at lines 138--139
-=======
-Overfull \hbox (0.52385pt too wide) in paragraph at lines 112--113
-[][]\OT1/cmr/m/n/10 VBV kon-cep-tet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]o
-g kva-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
- []
-
-[2]
-Overfull \hbox (9.91388pt too wide) in paragraph at lines 129--130
-[][]\OT1/cmr/m/n/10 En []overg^^Wang mot pri-va-ti-se-ring el-ler kvasi-privati
-sering och d[]armed bort fr^^Wan k[]arninstitutioner.
- []
-
-
-Overfull \hbox (48.83069pt too wide) in paragraph at lines 137--138
->>>>>>> origin/master
+Overfull \hbox (48.83069pt too wide) in paragraph at lines 139--140
 \OT1/cmr/m/n/10 f[]or var-je kro-na); kon-trakts-styr-ning; pre-sta-tions-ers[]
 attningar (t.ex. skol-peng); j[]amf[]orelser/benchmarking
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (0.54747pt too wide) in paragraph at lines 139--140
+Overfull \hbox (0.54747pt too wide) in paragraph at lines 140--141
 []\OT1/cmr/bx/n/10 Disaggeregering och kon-kur-rens: \OT1/cmr/m/n/10 Ska-pan-de
 t av kvasi-marknader, kon-kur-rens-uts[]attning
-=======
-Overfull \hbox (0.54747pt too wide) in paragraph at lines 138--139
-[][]\OT1/cmr/bx/n/10 Disaggeregering och kon-kur-rens: \OT1/cmr/m/n/10 Ska-pan-
-det av kvasi-marknader, kon-kur-rens-uts[]attning
->>>>>>> origin/master
  []
 
 [3
@@ -892,83 +859,45 @@ det av kvasi-marknader, kon-kur-rens-uts[]attning
 ] [4] [5] [6] [7
 
 ]
-<<<<<<< HEAD
-Underfull \hbox (badness 2662) in paragraph at lines 197--197
-[]\OT1/cmr/m/n/10 Mortalitet, funk-tion, livs-kva-li-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\OT1/cmr/m/n/10 Aterh[]amtningsfas/
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 4353) in paragraph at lines 199--199
-=======
-Underfull \hbox (badness 4353) in paragraph at lines 198--198
->>>>>>> origin/master
+Underfull \hbox (badness 4353) in paragraph at lines 200--200
 []\OT1/cmr/m/n/10 Bibeh^^Wallen h[]alsa, subop-ti-malt
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 5519) in paragraph at lines 217--217
-=======
-Underfull \hbox (badness 5519) in paragraph at lines 216--216
->>>>>>> origin/master
+Underfull \hbox (badness 5519) in paragraph at lines 218--218
 []\OT1/cmr/m/n/10 Kr[]aver sto-ra po-pu-la-tio-ner, ibland l^^Wanga
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.08488pt too wide) in paragraph at lines 211--220
+Overfull \hbox (4.08488pt too wide) in paragraph at lines 212--221
  [][] 
-=======
-Overfull \hbox (4.08488pt too wide) in paragraph at lines 210--219
- [][][] 
->>>>>>> origin/master
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8]
-<<<<<<< HEAD
-Underfull \hbox (badness 3449) in paragraph at lines 245--245
-=======
-Underfull \hbox (badness 3449) in paragraph at lines 244--244
->>>>>>> origin/master
+Underfull \hbox (badness 3449) in paragraph at lines 246--246
 []\OT1/cmr/m/n/10 Utbildningsniv^^Wa, ar-be-te, fa-mil-jest[]od,
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []\OT1/cmr/m/n/10 Sjukv^^Wardens kva-li-tet, tillg^^Wang till
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 4156) in paragraph at lines 248--248
-=======
-Underfull \hbox (badness 4156) in paragraph at lines 247--247
->>>>>>> origin/master
+Underfull \hbox (badness 4156) in paragraph at lines 249--249
 \OT1/cmr/m/n/10 fiks[]akerhet, brand-skydd, po-lis-skydd,
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 8056) in paragraph at lines 248--248
-=======
-Underfull \hbox (badness 8056) in paragraph at lines 247--247
->>>>>>> origin/master
+Underfull \hbox (badness 8056) in paragraph at lines 249--249
 \OT1/cmr/m/n/10 cy-kel-hj[]alm, s[]akerhetsb[]alte, flytv[]ast,
  []
 
@@ -976,31 +905,18 @@ Underfull \hbox (badness 8056) in paragraph at lines 247--247
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-<<<<<<< HEAD
-Overfull \hbox (7.71942pt too wide) in paragraph at lines 256--257
+Overfull \hbox (7.71942pt too wide) in paragraph at lines 257--258
 []\OT1/cmr/m/n/10 Avsaknaden av Case-mix-justering kan le-da till att j[]amf[]o
 relse (s.k. bench-mar-king) av v^^Wardgivare
-=======
-Overfull \hbox (7.71942pt too wide) in paragraph at lines 255--256
-[][]\OT1/cmr/m/n/10 Avsaknaden av Case-mix-justering kan le-da till att j[]amf[
-]orelse (s.k. bench-mar-king) av v^^Wardgivare
->>>>>>> origin/master
  []
 
 [10] <varde.png, id=168, 545.03625pt x 331.2375pt>
 File: varde.png Graphic file (type png)
  <use varde.png>
-<<<<<<< HEAD
-Package pdftex.def Info: varde.png used on input line 264.
+Package pdftex.def Info: varde.png used on input line 265.
 (pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
  [11 <./varde.png>]
-Overfull \hbox (15.02502pt too wide) in paragraph at lines 273--274
-=======
-Package pdftex.def Info: varde.png used on input line 263.
-(pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
- [11 <./varde.png>]
-Overfull \hbox (15.02502pt too wide) in paragraph at lines 272--273
->>>>>>> origin/master
+Overfull \hbox (15.02502pt too wide) in paragraph at lines 274--275
 \OT1/cmr/m/n/10 un-der ka-len-der^^Waret 2013. Att da-ta kom-mer di-rekt fr^^Wa
 n Ka-ro-lins-kas pa-ti-ent-da-ta-bas ger f[]oruts[]attningar
  []
@@ -1008,192 +924,95 @@ n Ka-ro-lins-kas pa-ti-ent-da-ta-bas ger f[]oruts[]attningar
 <Data.png, id=174, 652.4375pt x 527.9725pt>
 File: Data.png Graphic file (type png)
  <use Data.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Data.png used on input line 292.
+Package pdftex.def Info: Data.png used on input line 293.
 (pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--297
-=======
-Package pdftex.def Info: Data.png used on input line 291.
-(pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--296
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 291--298
 
  []
 
 [12
 
-<<<<<<< HEAD
 ] [13 <./Data.png>] [14] [15]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 378.
-=======
-]
-
-LaTeX Warning: Reference `sec:casemix' on page 13 undefined on input line 297.
-
-[13 <./Data.png>] [14] [15]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 377.
->>>>>>> origin/master
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 379.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-<<<<<<< HEAD
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 378.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 379.
  [16] [17]
-Overfull \hbox (7.88602pt too wide) in paragraph at lines 446--447
+Overfull \hbox (7.88602pt too wide) in paragraph at lines 447--448
 []\OT1/cmr/m/n/10 Flera av de pa-ra-met-rar som ans^^Wags vik-ti-ga f[]or mo-de
 l-le-ring-en in-neh[]oll sak-na-de v[]arden. Dessv[]arre
-=======
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 377.
-
-Overfull \hbox (7.88602pt too wide) in paragraph at lines 443--444
-[][]\OT1/cmr/m/n/10 Flera av de pa-ra-met-rar som ans^^Wags vik-ti-ga f[]or mo-
-del-le-ring-en in-neh[]oll sak-na-de v[]arden. Dessv[]arre
->>>>>>> origin/master
  []
 
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-<<<<<<< HEAD
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 453.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 454.
 [18]
-Overfull \hbox (65.13109pt too wide) in paragraph at lines 613--679
+Overfull \hbox (65.13109pt too wide) in paragraph at lines 614--680
  [][] 
-=======
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 450.
- [18]
-Overfull \hbox (65.13109pt too wide) in paragraph at lines 610--676
- [][][] 
->>>>>>> origin/master
  []
 
 [19] [20] [21] <alder.png, id=210, 859.21pt x 467.7475pt>
 File: alder.png Graphic file (type png)
  <use alder.png>
-<<<<<<< HEAD
-Package pdftex.def Info: alder.png used on input line 690.
+Package pdftex.def Info: alder.png used on input line 691.
 (pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--695
-=======
-Package pdftex.def Info: alder.png used on input line 685.
-(pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--690
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 689--696
 
  []
 
 <kostnad.png, id=211, 859.21pt x 467.7475pt>
 File: kostnad.png Graphic file (type png)
  <use kostnad.png>
-<<<<<<< HEAD
-Package pdftex.def Info: kostnad.png used on input line 698.
+Package pdftex.def Info: kostnad.png used on input line 699.
 (pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--703
+Underfull \hbox (badness 10000) in paragraph at lines 697--704
 
  []
 
 [22 <./alder.png>]
-Overfull \hbox (0.30272pt too wide) in paragraph at lines 710--711
-=======
-Package pdftex.def Info: kostnad.png used on input line 693.
-(pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 691--698
-
- []
-
-[22 <./alder.png> <./kostnad.png>]
-Overfull \hbox (0.30272pt too wide) in paragraph at lines 705--706
->>>>>>> origin/master
+Overfull \hbox (0.30272pt too wide) in paragraph at lines 711--712
 \OT1/cmr/m/n/10 regres-sion f^^War de f[]orklarande va-ri-ab-ler-na oli-ka vik-
 ter be-ro-en-de p^^Wa i vil-ken ut-str[]ackning de p^^Waverkar
  []
 
-<<<<<<< HEAD
 [23 <./kostnad.png>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 766--766
-=======
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 761--761
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 767--767
 []\OT1/cmr/m/n/10 Skillnad
  []
 
 [25
 
 ]
-<<<<<<< HEAD
-Overfull \hbox (0.9405pt too wide) in paragraph at lines 785--786
+Overfull \hbox (0.9405pt too wide) in paragraph at lines 786--787
 []\OT1/cmr/m/n/10 Som ti-di-ga-re n[]amnts []ar det en-ligt VBV ef-ter-str[]ava
 nsv[]art att ska-pa s^^Wa h[]og kva-li-tet i f[]orh^^Wallande
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 793--793
-=======
-
-LaTeX Warning: Reference `fig:kostres' on page 26 undefined on input line 773.
-
-
-Overfull \hbox (0.9405pt too wide) in paragraph at lines 780--781
-[][]\OT1/cmr/m/n/10 Som ti-di-ga-re n[]amnts []ar det en-ligt VBV ef-ter-str[]a
-vansv[]art att ska-pa s^^Wa h[]og kva-li-tet i f[]orh^^Wallande
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 788--788
->>>>>>> origin/master
+Underfull \hbox (badness 1552) in paragraph at lines 794--794
 []\OT1/cmr/m/n/10 V[]ardeskapande in-
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 788--788
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 794--794
 []\OT1/cmr/m/n/10 V[]ardeskapande
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 796--796
+Underfull \hbox (badness 10000) in paragraph at lines 797--797
 []\OT1/cmr/m/n/10 Skillnad mel-lan
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 791--791
-[][]\OT1/cmr/m/n/10 Skillnad mel-lan
->>>>>>> origin/master
  []
 
 [26] [27] [28] [29
 
 ]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 831--832
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 835--836
->>>>>>> origin/master
 
  []
 
@@ -1228,12 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 847--848
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 848--849
-=======
-]
 Underfull \hbox (badness 10000) in paragraph at lines 849--850
->>>>>>> origin/master
 
  []
 
@@ -1249,12 +1063,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
 [30
 
-<<<<<<< HEAD
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 855--856
->>>>>>> origin/master
 
  []
 
@@ -1279,17 +1089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 863--864
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 864--865
-=======
-Overfull \hbox (13.3306pt too wide) in paragraph at lines 865--866
-[][]\OT1/cmr/m/n/10 Nordenstr[]om, J. (2014) V[]ardebaserad v^^Ward kan ge b[]a
-ttre v^^Wardutfall. L[]akartidningen. 2014;111:CZCR 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 865--866
->>>>>>> origin/master
 
  []
 
@@ -1304,27 +1104,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 869--870
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.3306pt too wide) in paragraph at lines 870--871
+Overfull \hbox (13.3306pt too wide) in paragraph at lines 871--872
 []\OT1/cmr/m/n/10 Nordenstr[]om, J. (2014) V[]ardebaserad v^^Ward kan ge b[]att
 re v^^Wardutfall. L[]akartidningen. 2014;111:CZCR 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 873--874
->>>>>>> origin/master
 
  []
 
@@ -1334,184 +1125,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 875--876
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 876--877
+Underfull \hbox (badness 10000) in paragraph at lines 877--878
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 878--879
+Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 
  []
 
 
-Overfull \hbox (68.88623pt too wide) in paragraph at lines 882--883
-=======
-Overfull \hbox (68.88623pt too wide) in paragraph at lines 877--878
->>>>>>> origin/master
+Overfull \hbox (68.88623pt too wide) in paragraph at lines 883--884
 \OT1/cmr/m/n/10 Sve-ri-ges kom-mu-ner och lands-ting.Tillg[]anglig p^^Wa In-ter
 -net: http://www.socialstyrelsen.se/publikationer2013/2013-
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 882--883
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 886--887
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (7.4416pt too wide) in paragraph at lines 888--889
+Overfull \hbox (7.4416pt too wide) in paragraph at lines 889--890
 []\OT1/cmr/m/n/10 DN. (2013). Den ol[]onsamma pa-ti-en-ten. H[]amtad 2015-03-20
 , fr^^Wan http://www.dn.se/stories/stories-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
-=======
-Overfull \hbox (7.4416pt too wide) in paragraph at lines 883--884
-[][]\OT1/cmr/m/n/10 DN. (2013). Den ol[]onsamma pa-ti-en-ten. H[]amtad 2015-03-
-20, fr^^Wan http://www.dn.se/stories/stories-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 885--886
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (39.44174pt too wide) in paragraph at lines 892--893
-=======
-Overfull \hbox (39.44174pt too wide) in paragraph at lines 887--888
->>>>>>> origin/master
+Overfull \hbox (39.44174pt too wide) in paragraph at lines 893--894
 \OT1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen
 --presentationsbroschyrer--organisation/ 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 892--893
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 887--888
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 894--895
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 889--890
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 896--897
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 891--892
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 893--894
->>>>>>> origin/master
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 895--896
->>>>>>> origin/master
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
 [32]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 906--907
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 901--902
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 903--904
->>>>>>> origin/master
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 905--906
->>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 907--908
->>>>>>> origin/master
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 909--910
->>>>>>> origin/master
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
@@ -1557,7 +1274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 909--910
 File: effektmortalitet.png Graphic file (type png)
 
 <use effektmortalitet.png>
-Package pdftex.def Info: effektmortalitet.png used on input line 1053.
+Package pdftex.def Info: effektmortalitet.png used on input line 1059.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
  [36
 
@@ -1565,7 +1282,7 @@ Package pdftex.def Info: effektmortalitet.png used on input line 1053.
 <effektkostnad.png, id=267, 859.21pt x 467.7475pt>
 File: effektkostnad.png Graphic file (type png)
  <use effektkostnad.png>
-Package pdftex.def Info: effektkostnad.png used on input line 1060.
+Package pdftex.def Info: effektkostnad.png used on input line 1066.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
 
 [37
@@ -1579,56 +1296,22 @@ File: lstlang2.sty 2014/03/04 1.5c listings language file
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2014/03/04 1.5c listings language file
-)
+) [38
 
-! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
-h LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1065 vår 
-            kod
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1065 vår 
-            kod
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[38
-
-] (./harvard.aux)
+]
+(./harvard.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 14043 strings out of 493117
- 272379 string characters out of 6135433
- 357468 words of memory out of 5000000
- 17210 multiletter control sequences out of 15000+600000
-=======
- 16453 strings out of 493117
- 302818 string characters out of 6135433
- 405651 words of memory out of 5000000
- 19596 multiletter control sequences out of 15000+600000
->>>>>>> origin/master
+ 16449 strings out of 493117
+ 302767 string characters out of 6135433
+ 404594 words of memory out of 5000000
+ 19592 multiletter control sequences out of 15000+600000
  10088 words of font info for 35 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
- 55i,12n,54p,1787b,1727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1787b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1647,11 +1330,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<<<<<<< HEAD
-Output written on harvard.pdf (40 pages, 1924419 bytes).
-=======
-Output written on harvard.pdf (43 pages, 1951833 bytes).
->>>>>>> origin/master
+Output written on harvard.pdf (43 pages, 1959161 bytes).
 PDF statistics:
  336 PDF objects out of 1000 (max. 8388607)
  229 compressed objects within 3 object streams
