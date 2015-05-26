@@ -34,3 +34,6 @@
 \contentsline {subsection}{\numberline {6.3}Intervjuer och kommunikation}{33}
 \contentsline {section}{\numberline {7}Appendix 1 - Kvalitetsmodell}{34}
 \contentsline {section}{\numberline {8}Appendix 2 - Kostnadsmodell}{35}
+\contentsline {section}{\numberline {9}Appendix 3 - Effektplot: Kvalitet}{36}
+\contentsline {section}{\numberline {10}Appendix 4 - Effektplot: Kostnad}{37}
+\contentsline {section}{\numberline {11}Appendix 5 - R-Kod}{38}
