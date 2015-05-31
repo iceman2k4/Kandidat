@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  26 MAY 2015 07:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  31 MAY 2015 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -831,9 +831,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-Overfull \hbox (0.52385pt too wide) in paragraph at lines 114--115
-[]\OT1/cmr/m/n/10 VBV kon-cep-tet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]og 
-kva-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
+Overfull \hbox (1.63606pt too wide) in paragraph at lines 114--115
+[]\OT1/cmr/m/n/10 VBV-konceptet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]og kv
+a-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
  []
 
 [2]
@@ -921,7 +921,9 @@ Overfull \hbox (15.02502pt too wide) in paragraph at lines 274--275
 n Ka-ro-lins-kas pa-ti-ent-da-ta-bas ger f[]oruts[]attningar
  []
 
-<Data.png, id=174, 652.4375pt x 527.9725pt>
+[12
+
+] <Data.png, id=177, 652.4375pt x 527.9725pt>
 File: Data.png Graphic file (type png)
  <use Data.png>
 Package pdftex.def Info: Data.png used on input line 293.
@@ -931,9 +933,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--298
 
  []
 
-[12
-
-] [13 <./Data.png>] [14] [15]
+[13 <./Data.png>] [14] [15]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 379.
 
 
@@ -981,12 +981,12 @@ Overfull \hbox (0.30272pt too wide) in paragraph at lines 711--712
 ter be-ro-en-de p^^Wa i vil-ken ut-str[]ackning de p^^Waverkar
  []
 
-[23 <./kostnad.png>] [24]
+[23 <./kostnad.png>] [24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 767--767
 []\OT1/cmr/m/n/10 Skillnad
  []
 
-[25
+[26
 
 ]
 Overfull \hbox (0.9405pt too wide) in paragraph at lines 786--787
@@ -1009,7 +1009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 797--797
 []\OT1/cmr/m/n/10 Skillnad mel-lan
  []
 
-[26] [27] [28] [29
+[27] [28] [29] [30
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 835--836
@@ -1061,7 +1061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
-[30
+[31
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 855--856
@@ -1129,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 877--878
 
  []
 
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
@@ -1202,7 +1202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-[32]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
@@ -1232,7 +1232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
-[33]
+[34]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1265,27 +1265,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--916
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [34
+ [35
 
 
-] [35
+] [36
 
-] <effektmortalitet.png, id=262, 859.21pt x 467.7475pt>
+] <effektmortalitet.png, id=265, 859.21pt x 467.7475pt>
 File: effektmortalitet.png Graphic file (type png)
 
 <use effektmortalitet.png>
 Package pdftex.def Info: effektmortalitet.png used on input line 1059.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
- [36
+ [37
 
  <./effektmortalitet.png>]
-<effektkostnad.png, id=267, 859.21pt x 467.7475pt>
+<effektkostnad.png, id=270, 859.21pt x 467.7475pt>
 File: effektkostnad.png Graphic file (type png)
  <use effektkostnad.png>
 Package pdftex.def Info: effektkostnad.png used on input line 1066.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
 
-[37
+[38
 
  <./effektkostnad.png>]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1296,7 +1296,7 @@ File: lstlang2.sty 2014/03/04 1.5c listings language file
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2014/03/04 1.5c listings language file
-) [38
+) [39
 
 ]
 (./harvard.aux)
@@ -1307,11 +1307,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  16449 strings out of 493117
  302767 string characters out of 6135433
- 404594 words of memory out of 5000000
+ 404595 words of memory out of 5000000
  19592 multiletter control sequences out of 15000+600000
  10088 words of font info for 35 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
- 55i,12n,54p,1787b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,1780b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1330,10 +1330,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on harvard.pdf (43 pages, 1959161 bytes).
+Output written on harvard.pdf (44 pages, 1960043 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 339 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
