@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {1.1}Problemdiskussion}{1}
 \contentsline {subsubsection}{\numberline {1.1.1}Syfte och fr\IeC {\r a}gest\IeC {\"a}llningar}{3}
 \contentsline {section}{\numberline {2}Teori}{3}
-\contentsline {subsection}{\numberline {2.1}New public management}{3}
+\contentsline {subsection}{\numberline {2.1}New Public Management}{3}
 \contentsline {subsection}{\numberline {2.2}V\IeC {\"a}rdebaserad V\IeC {\r a}rd}{6}
 \contentsline {subsection}{\numberline {2.3}Att m\IeC {\"a}ta v\IeC {\"a}rdeskapande}{7}
 \contentsline {subsubsection}{\numberline {2.3.1}Att m\IeC {\"a}ta kvalitet}{7}
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {3.5}Modellbygge}{23}
 \contentsline {subsection}{\numberline {3.6}Evaluering}{24}
 \contentsline {subsection}{\numberline {3.7}Implementering}{24}
-\contentsline {section}{\numberline {4}Resultat - J\IeC {\"a}mf\IeC {\"o}relse av v\IeC {\"a}rdeskapande}{25}
+\contentsline {section}{\numberline {4}Resultat}{25}
 \contentsline {section}{\numberline {5}Diskussion}{27}
 \contentsline {section}{\numberline {6}Slutsats}{29}
 \contentsline {subsection}{\numberline {6.1}Framtida forskning}{30}

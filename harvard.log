@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  2 JUN 2015 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.12)  2 JUN 2015 23:40
 entering extended mode
  restricted \write18 enabled.
+ Source specials enabled.
  %&-line parsing enabled.
 **harvard.tex
 (./harvard.tex
@@ -833,330 +834,330 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
 
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
  [3] [4]
 [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \T1/cmr/m/n/10 Återhämtningsfas/
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 241--241
+Underfull \hbox (badness 4391) in paragraph at lines 242--242
 []\T1/cmr/m/n/10 Bibehållen häl-sa, subop-ti-malt
  []
 
 [8]
-Overfull \hbox (4.08488pt too wide) in paragraph at lines 253--262
- [][] 
+Overfull \hbox (4.08488pt too wide) in paragraph at lines 254--263
+ [][][] 
  []
 
 [9]
-Underfull \hbox (badness 3758) in paragraph at lines 292--292
+Underfull \hbox (badness 3758) in paragraph at lines 293--293
 []\T1/cmr/m/n/10 Utbildningsnivå, ar-be-te, fa-mil-je-stöd,
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 295--295
+Underfull \hbox (badness 4193) in paragraph at lines 296--296
 \T1/cmr/m/n/10 fik-sä-ker-het, brand-skydd, po-lis-skydd,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \T1/cmr/m/n/10 cy-kel-hjälm, sä-ker-hets-bäl-te, flyt-väst,
  []
 
 [10] <varde.png, id=168, 545.03625pt x 331.2375pt>
 File: varde.png Graphic file (type png)
  <use varde.png>
-Package pdftex.def Info: varde.png used on input line 313.
+Package pdftex.def Info: varde.png used on input line 314.
 (pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
  [11 <./varde.png>] [12] <Data.png, id=177, 652.4375pt x 527.9725pt>
 File: Data.png Graphic file (type png)
  <use Data.png>
-Package pdftex.def Info: Data.png used on input line 349.
+Package pdftex.def Info: Data.png used on input line 350.
 (pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--354
+Underfull \hbox (badness 10000) in paragraph at lines 348--355
 
  []
 
 [13 <./Data.png>] [14] [15] [16] [17]
-Overfull \hbox (1.64745pt too wide) in paragraph at lines 505--506
-[]\T1/cmr/m/n/10 Flera av de pa-ra-met-rar som an-sågs vik-ti-ga för mo-del-le-
-ring-en in-ne-höll sak-na-de vär-den. Dessvär-
+Overfull \hbox (1.64745pt too wide) in paragraph at lines 506--507
+[][]\T1/cmr/m/n/10 Flera av de pa-ra-met-rar som an-sågs vik-ti-ga för mo-del-l
+e-ring-en in-ne-höll sak-na-de vär-den. Dessvär-
  []
 
 [18]
-Overfull \hbox (65.08083pt too wide) in paragraph at lines 672--738
- [][] 
+Overfull \hbox (65.08083pt too wide) in paragraph at lines 673--739
+ [][][] 
  []
 
 [19] [20] [21] <alder.png, id=213, 859.21pt x 467.7475pt>
 File: alder.png Graphic file (type png)
  <use alder.png>
-Package pdftex.def Info: alder.png used on input line 748.
+Package pdftex.def Info: alder.png used on input line 749.
 (pdftex.def)             Requested size: 418.25368pt x 227.69945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--753
+Underfull \hbox (badness 10000) in paragraph at lines 747--754
 
  []
 
 <kostnad.png, id=214, 859.21pt x 467.7475pt>
 File: kostnad.png Graphic file (type png)
  <use kostnad.png>
-Package pdftex.def Info: kostnad.png used on input line 756.
+Package pdftex.def Info: kostnad.png used on input line 757.
 (pdftex.def)             Requested size: 418.25368pt x 227.69945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--761
+Underfull \hbox (badness 10000) in paragraph at lines 755--762
 
  []
 
 [22 <./alder.png>] [23 <./kostnad.png>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 823--823
+Underfull \hbox (badness 10000) in paragraph at lines 824--824
 []\T1/cmr/m/n/10 Skillnad
  []
 
 [25]
-Underfull \hbox (badness 1577) in paragraph at lines 847--847
+Underfull \hbox (badness 1577) in paragraph at lines 848--848
 []\T1/cmr/m/n/10 Värdeskapande in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--847
+Underfull \hbox (badness 10000) in paragraph at lines 848--848
 []\T1/cmr/m/n/10 Värdeskapande
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
-[]\T1/cmr/m/n/10 Skillnad mel-lan
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+[][]\T1/cmr/m/n/10 Skillnad mel-lan
  []
 
 [26] [27] [28] [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--896
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 899--900
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 901--902
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--906
+Underfull \hbox (badness 10000) in paragraph at lines 906--907
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--908
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 909--910
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--912
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 919--920
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--922
+Underfull \hbox (badness 10000) in paragraph at lines 922--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--924
+Underfull \hbox (badness 10000) in paragraph at lines 924--925
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 925--926
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--930
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--932
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
 
  []
 
 
-Overfull \hbox (12.11345pt too wide) in paragraph at lines 933--934
-[]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re vå
-rdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
+Overfull \hbox (12.11345pt too wide) in paragraph at lines 934--935
+[][]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re 
+vårdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--934
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 935--936
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--940
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--942
+Underfull \hbox (badness 10000) in paragraph at lines 942--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--944
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 945--946
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
 
 
-Overfull \hbox (39.32903pt too wide) in paragraph at lines 952--953
+Overfull \hbox (39.32903pt too wide) in paragraph at lines 953--954
 \T1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen-
 -presentationsbroschyrer--organisation/ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
+Underfull \hbox (badness 10000) in paragraph at lines 953--954
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 954--955
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 962--963
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
 
  []
 
 
-Overfull \hbox (47.21599pt too wide) in paragraph at lines 964--965
-[]\T1/cmr/m/n/10 Zaremba, M., (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 201
-5-03-20, från http://www.dn.se/stories/stories-
+Overfull \hbox (47.21599pt too wide) in paragraph at lines 965--966
+[][]\T1/cmr/m/n/10 Zaremba, M., (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 2
+015-03-20, från http://www.dn.se/stories/stories-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--971
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--973
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 974--975
+Underfull \hbox (badness 10000) in paragraph at lines 973--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
@@ -1233,7 +1234,7 @@ s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sfti1000.pfb>
-Output written on harvard.pdf (40 pages, 2043955 bytes).
+Output written on harvard.pdf (40 pages, 2042268 bytes).
 PDF statistics:
  347 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
