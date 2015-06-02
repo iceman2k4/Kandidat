@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  31 MAY 2015 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  1 JUN 2015 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -42,6 +42,13 @@ File: babel.def 2014/03/24 3.9k Babel common definitions
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 90.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
@@ -662,7 +669,10 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-))) (./harvard.aux
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (./harvard.aux
 
 LaTeX Warning: Label `fig:kostnad' multiply defined.
 
@@ -678,19 +688,23 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `harvard.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 67.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen176
@@ -788,24 +802,32 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count126
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 71.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 71.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 71.
+(Font)              <6> on input line 73.
 
 <front.pdf, id=4, page=1, 597.23125pt x 845.1575pt>
 File: front.pdf Graphic file (type pdf)
  <use front.pdf, page 1>
-Package pdftex.def Info: front.pdf, page1 used on input line 75.
+Package pdftex.def Info: front.pdf, page1 used on input line 77.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./front
-.pdf>] [2
+.pdf>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 83.
+ [2
 
-] (./harvard.toc
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 89.
+ (./harvard.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -827,196 +849,116 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [5
 
 ]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+
 [1
 
 
-]
-Overfull \hbox (1.63606pt too wide) in paragraph at lines 114--115
-[]\OT1/cmr/m/n/10 VBV-konceptet l[]agger fo-kus p^^Wa att ska-pa s^^Wa h[]og kv
-a-li-tet f[]or pa-ti-en-ten som m[]ojligt i f[]orh^^Wallande
- []
+] [2] [3
 
-[2]
-Overfull \hbox (9.91388pt too wide) in paragraph at lines 131--132
-[]\OT1/cmr/m/n/10 En []overg^^Wang mot pri-va-ti-se-ring el-ler kvasi-privatise
-ring och d[]armed bort fr^^Wan k[]arninstitutioner.
+] [4] [5] [6]
+Underfull \hbox (badness 6268) in paragraph at lines 200--200
+[]\T1/ptm/m/n/10 Mortalitet, funk-tion, livs-kva-li-tet,
  []
 
 
-Overfull \hbox (48.83069pt too wide) in paragraph at lines 139--140
-\OT1/cmr/m/n/10 f[]or var-je kro-na); kon-trakts-styr-ning; pre-sta-tions-ers[]
-attningar (t.ex. skol-peng); j[]amf[]orelser/benchmarking
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T1/ptm/m/n/10 Återhämtningsfas/
  []
 
 
-Overfull \hbox (0.54747pt too wide) in paragraph at lines 140--141
-[]\OT1/cmr/bx/n/10 Disaggeregering och kon-kur-rens: \OT1/cmr/m/n/10 Ska-pan-de
-t av kvasi-marknader, kon-kur-rens-uts[]attning
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\T1/ptm/m/n/10 Bibehållen häl-sa, subop-ti-malt
  []
 
-[3
-
-] [4] [5] [6] [7
+[7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]\OT1/cmr/m/n/10 Aterh[]amtningsfas/
- []
-
-
-Underfull \hbox (badness 4353) in paragraph at lines 200--200
-[]\OT1/cmr/m/n/10 Bibeh^^Wallen h[]alsa, subop-ti-malt
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 218--218
-[]\OT1/cmr/m/n/10 Kr[]aver sto-ra po-pu-la-tio-ner, ibland l^^Wanga
- []
-
-
-Overfull \hbox (4.08488pt too wide) in paragraph at lines 212--221
+Overfull \hbox (4.08488pt too wide) in paragraph at lines 214--223
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [8]
-Underfull \hbox (badness 3449) in paragraph at lines 246--246
-[]\OT1/cmr/m/n/10 Utbildningsniv^^Wa, ar-be-te, fa-mil-jest[]od,
+Underfull \hbox (badness 2368) in paragraph at lines 251--251
+[]\T1/ptm/m/n/10 Boendemiljö, ar-bets-plats-sä-ker-het, tra-fik-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
-[]\OT1/cmr/m/n/10 Sjukv^^Wardens kva-li-tet, tillg^^Wang till
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 249--249
-\OT1/cmr/m/n/10 fiks[]akerhet, brand-skydd, po-lis-skydd,
- []
-
-
-Underfull \hbox (badness 8056) in paragraph at lines 249--249
-\OT1/cmr/m/n/10 cy-kel-hj[]alm, s[]akerhetsb[]alte, flytv[]ast,
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
-Overfull \hbox (7.71942pt too wide) in paragraph at lines 257--258
-[]\OT1/cmr/m/n/10 Avsaknaden av Case-mix-justering kan le-da till att j[]amf[]o
-relse (s.k. bench-mar-king) av v^^Wardgivare
- []
-
-[10] <varde.png, id=168, 545.03625pt x 331.2375pt>
+[9] <varde.png, id=158, 545.03625pt x 331.2375pt>
 File: varde.png Graphic file (type png)
  <use varde.png>
-Package pdftex.def Info: varde.png used on input line 265.
+Package pdftex.def Info: varde.png used on input line 267.
 (pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
- [11 <./varde.png>]
-Overfull \hbox (15.02502pt too wide) in paragraph at lines 274--275
-\OT1/cmr/m/n/10 un-der ka-len-der^^Waret 2013. Att da-ta kom-mer di-rekt fr^^Wa
-n Ka-ro-lins-kas pa-ti-ent-da-ta-bas ger f[]oruts[]attningar
+ [10] [11 <./varde.png>] <Data.png, id=167, 652.4375pt x 527.9725pt>
+File: Data.png Graphic file (type png)
+ <use Data.png>
+Package pdftex.def Info: Data.png used on input line 295.
+(pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+
  []
 
 [12
 
-] <Data.png, id=177, 652.4375pt x 527.9725pt>
-File: Data.png Graphic file (type png)
- <use Data.png>
-Package pdftex.def Info: Data.png used on input line 293.
-(pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
-
- []
-
-[13 <./Data.png>] [14] [15]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 379.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 379.
- [16] [17]
-Overfull \hbox (7.88602pt too wide) in paragraph at lines 447--448
-[]\OT1/cmr/m/n/10 Flera av de pa-ra-met-rar som ans^^Wags vik-ti-ga f[]or mo-de
-l-le-ring-en in-neh[]oll sak-na-de v[]arden. Dessv[]arre
- []
-
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 454.
-[18]
-Overfull \hbox (65.13109pt too wide) in paragraph at lines 614--680
+] [13 <./Data.png>] [14] [15]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 344.
+ [16] [17] [18]
+Overfull \hbox (37.11734pt too wide) in paragraph at lines 616--682
  [][] 
  []
 
-[19] [20] [21] <alder.png, id=210, 859.21pt x 467.7475pt>
+[19] [20] [21] <alder.png, id=205, 859.21pt x 467.7475pt>
 File: alder.png Graphic file (type png)
  <use alder.png>
-Package pdftex.def Info: alder.png used on input line 691.
+Package pdftex.def Info: alder.png used on input line 693.
 (pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--696
+Underfull \hbox (badness 10000) in paragraph at lines 691--698
 
  []
 
-<kostnad.png, id=211, 859.21pt x 467.7475pt>
+<kostnad.png, id=206, 859.21pt x 467.7475pt>
 File: kostnad.png Graphic file (type png)
  <use kostnad.png>
-Package pdftex.def Info: kostnad.png used on input line 699.
+Package pdftex.def Info: kostnad.png used on input line 701.
 (pdftex.def)             Requested size: 334.60422pt x 182.15671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--704
+Underfull \hbox (badness 10000) in paragraph at lines 699--706
 
  []
 
-[22 <./alder.png>]
-Overfull \hbox (0.30272pt too wide) in paragraph at lines 711--712
-\OT1/cmr/m/n/10 regres-sion f^^War de f[]orklarande va-ri-ab-ler-na oli-ka vik-
-ter be-ro-en-de p^^Wa i vil-ken ut-str[]ackning de p^^Waverkar
- []
-
-[23 <./kostnad.png>] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 767--767
-[]\OT1/cmr/m/n/10 Skillnad
- []
-
-[26
+[22 <./alder.png>] [23 <./kostnad.png>] [24] [25
 
 ]
-Overfull \hbox (0.9405pt too wide) in paragraph at lines 786--787
-[]\OT1/cmr/m/n/10 Som ti-di-ga-re n[]amnts []ar det en-ligt VBV ef-ter-str[]ava
-nsv[]art att ska-pa s^^Wa h[]og kva-li-tet i f[]orh^^Wallande
+Underfull \hbox (badness 2213) in paragraph at lines 796--796
+[]\T1/ptm/m/n/10 Övelevnad (%) / Kost-nad
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 794--794
-[]\OT1/cmr/m/n/10 V[]ardeskapande in-
+Underfull \hbox (badness 10000) in paragraph at lines 796--796
+[]\T1/ptm/m/n/10 Värdeskapande
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--794
-[]\OT1/cmr/m/n/10 V[]ardeskapande
+Underfull \hbox (badness 10000) in paragraph at lines 796--796
+[]\T1/ptm/m/n/10 Värdeskapande
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--797
-[]\OT1/cmr/m/n/10 Skillnad mel-lan
+Underfull \hbox (badness 4060) in paragraph at lines 796--796
+[]\T1/ptm/m/n/10 Case-mix på-ver-kan på
  []
 
-[27] [28] [29] [30
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--799
+[]\T1/ptm/m/n/10 Skillnad mel-lan
+ []
+
+[26] [27] [28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 835--836
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
  []
@@ -1061,14 +1003,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
-[31
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
+[29
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
@@ -1104,12 +1046,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 869--870
  []
 
 
-Overfull \hbox (13.3306pt too wide) in paragraph at lines 871--872
-[]\OT1/cmr/m/n/10 Nordenstr[]om, J. (2014) V[]ardebaserad v^^Ward kan ge b[]att
-re v^^Wardutfall. L[]akartidningen. 2014;111:CZCR 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
@@ -1129,7 +1065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 877--878
 
  []
 
-[32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
@@ -1139,26 +1075,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 881--882
 
  []
 
-
-Overfull \hbox (68.88623pt too wide) in paragraph at lines 883--884
-\OT1/cmr/m/n/10 Sve-ri-ges kom-mu-ner och lands-ting.Tillg[]anglig p^^Wa In-ter
--net: http://www.socialstyrelsen.se/publikationer2013/2013-
- []
-
-
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--888
+Underfull \hbox (badness 10000) in paragraph at lines 885--886
 
- []
-
-
-Overfull \hbox (7.4416pt too wide) in paragraph at lines 889--890
-[]\OT1/cmr/m/n/10 DN. (2013). Den ol[]onsamma pa-ti-en-ten. H[]amtad 2015-03-20
-, fr^^Wan http://www.dn.se/stories/stories-
  []
 
 
@@ -1167,19 +1091,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 889--890
  []
 
 
+Overfull \hbox (15.68214pt too wide) in paragraph at lines 891--892
+[]\T1/ptm/m/n/10 DN. (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 2015-03-20, 
+från http://www.dn.se/stories/stories-kultur/den-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 891--892
 
  []
 
 
-Overfull \hbox (39.44174pt too wide) in paragraph at lines 893--894
-\OT1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen
---presentationsbroschyrer--organisation/ 
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
-
+Overfull \hbox (35.94215pt too wide) in paragraph at lines 895--896
+[]\T1/ptm/m/n/10 Karolinska. (2015). Fak-ta om sjuk-hu-set. Häm-tad: 2015-04-09
+, från http://www.karolinska.se/om-karolinska/Fakta-
  []
 
 
@@ -1193,6 +1123,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 897--898
  []
 
 
+Overfull \hbox (307.98784pt too wide) in paragraph at lines 899--900
+[]\T1/ptm/m/n/10 Nationella kva-li-tets-re-gis-ter. (2014). Om Na-tio-nel-la kv
+a-li-tets-re-gis-ter. Häm-tad 2015-05-20, från http://www.kvalitetsregister.se/
+sekundarnavigering/omnationellakvalitetsregister.33.html 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
@@ -1202,17 +1139,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-[33]
+
 Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--908
+Underfull \hbox (badness 10000) in paragraph at lines 905--906
 
  []
 
-
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 909--910
 
  []
@@ -1220,6 +1157,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 909--910
 
 Underfull \hbox (badness 10000) in paragraph at lines 911--912
 
+ []
+
+
+Overfull \hbox (6.753pt too wide) in paragraph at lines 913--914
+[]\T1/ptm/m/n/10 Wiklund, E. Chef över kvan-ti-ta-tiv ana-lys Ka-ronins-ka Uni-
+ver-si-tes-sjuk-hu-set. Stock-holm, 2015-02-13. Grupp-
  []
 
 
@@ -1232,7 +1175,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
-[34]
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+[32]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1265,27 +1213,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--916
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [35
+ [33
 
 
-] [36
+] [34
 
-] <effektmortalitet.png, id=265, 859.21pt x 467.7475pt>
+] <effektmortalitet.png, id=255, 859.21pt x 467.7475pt>
 File: effektmortalitet.png Graphic file (type png)
 
 <use effektmortalitet.png>
-Package pdftex.def Info: effektmortalitet.png used on input line 1059.
+Package pdftex.def Info: effektmortalitet.png used on input line 1061.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
- [37
+ [35
 
  <./effektmortalitet.png>]
-<effektkostnad.png, id=270, 859.21pt x 467.7475pt>
+<effektkostnad.png, id=260, 859.21pt x 467.7475pt>
 File: effektkostnad.png Graphic file (type png)
  <use effektkostnad.png>
-Package pdftex.def Info: effektkostnad.png used on input line 1066.
+Package pdftex.def Info: effektkostnad.png used on input line 1068.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
 
-[38
+[36
 
  <./effektkostnad.png>]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1296,7 +1244,7 @@ File: lstlang2.sty 2014/03/04 1.5c listings language file
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2014/03/04 1.5c listings language file
-) [39
+) [37
 
 ]
 (./harvard.aux)
@@ -1305,35 +1253,32 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16449 strings out of 493117
- 302767 string characters out of 6135433
- 404595 words of memory out of 5000000
- 19592 multiletter control sequences out of 15000+600000
- 10088 words of font info for 35 fonts, out of 8000000 for 9000
+ 16696 strings out of 493117
+ 304871 string characters out of 6135433
+ 402712 words of memory out of 5000000
+ 19819 multiletter control sequences out of 15000+600000
+ 46248 words of font info for 56 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
- 55i,12n,54p,1780b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on harvard.pdf (44 pages, 1960043 bytes).
+ 55i,12n,54p,1780b,1726s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on harvard.pdf (42 pages, 1863541 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 317 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
