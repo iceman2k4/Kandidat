@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  2 JUN 2015 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.1)  2 JUN 2015 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,71 +970,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 849--849
 
 [28] [29
 
-] [30] [31
+] [30] [31] [32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 904--905
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 906--907
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 916--917
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 918--919
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 920--921
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
-
- []
-
-[32
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 926--927
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
@@ -1065,12 +1003,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 938--939
  []
 
 
-Overfull \hbox (12.11345pt too wide) in paragraph at lines 940--941
-[]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re vå
-rdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 940--941
 
  []
@@ -1090,7 +1022,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
-[33]
+[33
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 948--949
 
  []
@@ -1106,25 +1040,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 952--953
  []
 
 
-Overfull \hbox (68.76628pt too wide) in paragraph at lines 954--955
-\T1/cmr/m/n/10 Sve-ri-ges kom-mu-ner och lands-ting.Tillgänglig på In-ter-net: 
-http://www.socialstyrelsen.se/publikationer2013/2013-
+Underfull \hbox (badness 10000) in paragraph at lines 954--955
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 954--955
+Underfull \hbox (badness 10000) in paragraph at lines 956--957
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
- []
-
-
-Overfull \hbox (7.33684pt too wide) in paragraph at lines 960--961
-[]\T1/cmr/m/n/10 DN. (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 2015-03-20, 
-från http://www.dn.se/stories/stories-
  []
 
 
@@ -1138,9 +1065,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 962--963
  []
 
 
-Overfull \hbox (39.32903pt too wide) in paragraph at lines 964--965
-\T1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen-
--presentationsbroschyrer--organisation/ 
+Overfull \hbox (12.11345pt too wide) in paragraph at lines 964--965
+[]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re vå
+rdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
  []
 
 
@@ -1174,18 +1101,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 974--975
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
+Underfull \hbox (badness 10000) in paragraph at lines 976--977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
+Overfull \hbox (68.76628pt too wide) in paragraph at lines 978--979
+\T1/cmr/m/n/10 Sve-ri-ges kom-mu-ner och lands-ting.Tillgänglig på In-ter-net: 
+http://www.socialstyrelsen.se/publikationer2013/2013-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 982--983
 
+ []
+
+
+Overfull \hbox (7.33684pt too wide) in paragraph at lines 984--985
+[]\T1/cmr/m/n/10 DN. (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 2015-03-20, 
+från http://www.dn.se/stories/stories-
  []
 
 
@@ -1198,7 +1137,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 986--987
 
  []
 
+
+Overfull \hbox (39.32903pt too wide) in paragraph at lines 988--989
+\T1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen-
+-presentationsbroschyrer--organisation/ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+ []
+
 [35]
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+[36]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1231,27 +1231,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 986--987
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [36
+ [37
 
 
-] [37
+] [38
 
-] <effektmortalitet.png, id=274, 859.21pt x 467.7475pt>
+] <effektmortalitet.png, id=278, 859.21pt x 467.7475pt>
 File: effektmortalitet.png Graphic file (type png)
 
 <use effektmortalitet.png>
-Package pdftex.def Info: effektmortalitet.png used on input line 1130.
+Package pdftex.def Info: effektmortalitet.png used on input line 1154.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
- [38
+ [39
 
  <./effektmortalitet.png>]
-<effektkostnad.png, id=280, 859.21pt x 467.7475pt>
+<effektkostnad.png, id=283, 859.21pt x 467.7475pt>
 File: effektkostnad.png Graphic file (type png)
  <use effektkostnad.png>
-Package pdftex.def Info: effektkostnad.png used on input line 1137.
+Package pdftex.def Info: effektkostnad.png used on input line 1161.
 (pdftex.def)             Requested size: 338.0193pt x 184.01952pt.
 
-[39
+[40
 
  <./effektkostnad.png>] (./harvard.aux)
 
@@ -1261,7 +1261,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  15603 strings out of 493117
  293205 string characters out of 6135433
- 376088 words of memory out of 5000000
+ 376087 words of memory out of 5000000
  18742 multiletter control sequences out of 15000+600000
  18615 words of font info for 42 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
@@ -1291,10 +1291,10 @@ s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sfti1000.pfb>
-Output written on harvard.pdf (44 pages, 2078038 bytes).
+Output written on harvard.pdf (45 pages, 2079989 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

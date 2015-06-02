@@ -24,13 +24,13 @@
 \contentsline {subsection}{\numberline {3.7}Implementering}{25}
 \contentsline {section}{\numberline {4}Resultat - J\IeC {\"a}mf\IeC {\"o}relse av v\IeC {\"a}rdeskapande}{27}
 \contentsline {section}{\numberline {5}Diskussion}{29}
-\contentsline {section}{\numberline {6}Slutsats}{31}
-\contentsline {subsection}{\numberline {6.1}Framtida forskning}{31}
-\contentsline {section}{\numberline {7}Referenser}{32}
-\contentsline {subsection}{\numberline {7.1}Publikationer}{32}
-\contentsline {subsection}{\numberline {7.2}Hemsidor}{34}
-\contentsline {subsection}{\numberline {7.3}Intervjuer och kommunikation}{35}
-\contentsline {section}{\numberline {8}Appendix 1 - Kvalitetsmodell}{36}
-\contentsline {section}{\numberline {9}Appendix 2 - Kostnadsmodell}{37}
-\contentsline {section}{\numberline {10}Appendix 3 - Effektplot: Kvalitet}{38}
-\contentsline {section}{\numberline {11}Appendix 4 - Effektplot: Kostnad}{39}
+\contentsline {section}{\numberline {6}Slutsats}{32}
+\contentsline {subsection}{\numberline {6.1}Framtida forskning}{32}
+\contentsline {section}{\numberline {7}Referenser}{33}
+\contentsline {subsection}{\numberline {7.1}Publikationer}{33}
+\contentsline {subsection}{\numberline {7.2}Hemsidor}{35}
+\contentsline {subsection}{\numberline {7.3}Intervjuer och kommunikation}{36}
+\contentsline {section}{\numberline {8}Appendix 1 - Kvalitetsmodell}{37}
+\contentsline {section}{\numberline {9}Appendix 2 - Kostnadsmodell}{38}
+\contentsline {section}{\numberline {10}Appendix 3 - Effektplot: Kvalitet}{39}
+\contentsline {section}{\numberline {11}Appendix 4 - Effektplot: Kostnad}{40}
