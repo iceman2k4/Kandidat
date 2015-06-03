@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.12)  2 JUN 2015 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.12)  3 JUN 2015 11:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -672,15 +672,6 @@ s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 ))) (./harvard.aux
 
-LaTeX Warning: Label `fig:kostnad' multiply defined.
-
-
-LaTeX Warning: Label `tab:kvalres' multiply defined.
-
-
-LaTeX Warning: Label `tab:livslangd' multiply defined.
-
-
 LaTeX Warning: Label `' multiply defined.
 
 )
@@ -843,102 +834,105 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
  [3] [4]
 [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
 \T1/cmr/m/n/10 Återhämtningsfas/
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 242--242
+Underfull \hbox (badness 4391) in paragraph at lines 240--240
 []\T1/cmr/m/n/10 Bibehållen häl-sa, subop-ti-malt
  []
 
-[8]
-Overfull \hbox (4.08488pt too wide) in paragraph at lines 254--263
+
+Overfull \hbox (4.08488pt too wide) in paragraph at lines 252--261
  [][][] 
  []
 
-[9]
-Underfull \hbox (badness 3758) in paragraph at lines 293--293
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9]
+Underfull \hbox (badness 3758) in paragraph at lines 291--291
 []\T1/cmr/m/n/10 Utbildningsnivå, ar-be-te, fa-mil-je-stöd,
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 296--296
+Underfull \hbox (badness 4193) in paragraph at lines 294--294
 \T1/cmr/m/n/10 fik-sä-ker-het, brand-skydd, po-lis-skydd,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
-\T1/cmr/m/n/10 cy-kel-hjälm, sä-ker-hets-bäl-te, flyt-väst,
  []
 
 [10] <varde.png, id=168, 545.03625pt x 331.2375pt>
 File: varde.png Graphic file (type png)
  <use varde.png>
-Package pdftex.def Info: varde.png used on input line 314.
+Package pdftex.def Info: varde.png used on input line 312.
 (pdftex.def)             Requested size: 334.60422pt x 203.34846pt.
  [11 <./varde.png>] [12] <Data.png, id=177, 652.4375pt x 527.9725pt>
 File: Data.png Graphic file (type png)
  <use Data.png>
-Package pdftex.def Info: Data.png used on input line 350.
+Package pdftex.def Info: Data.png used on input line 348.
 (pdftex.def)             Requested size: 334.60422pt x 270.77698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--355
+Underfull \hbox (badness 10000) in paragraph at lines 346--353
 
  []
 
 [13 <./Data.png>] [14] [15] [16] [17]
-Overfull \hbox (1.64745pt too wide) in paragraph at lines 506--507
+Overfull \hbox (1.64745pt too wide) in paragraph at lines 504--505
 [][]\T1/cmr/m/n/10 Flera av de pa-ra-met-rar som an-sågs vik-ti-ga för mo-del-l
 e-ring-en in-ne-höll sak-na-de vär-den. Dessvär-
  []
 
 [18]
-Overfull \hbox (65.08083pt too wide) in paragraph at lines 673--739
+Overfull \hbox (65.08083pt too wide) in paragraph at lines 671--737
  [][][] 
  []
 
 [19] [20] [21] <alder.png, id=213, 859.21pt x 467.7475pt>
 File: alder.png Graphic file (type png)
  <use alder.png>
-Package pdftex.def Info: alder.png used on input line 749.
+Package pdftex.def Info: alder.png used on input line 747.
 (pdftex.def)             Requested size: 418.25368pt x 227.69945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--754
+Underfull \hbox (badness 10000) in paragraph at lines 745--752
 
  []
 
 <kostnad.png, id=214, 859.21pt x 467.7475pt>
 File: kostnad.png Graphic file (type png)
  <use kostnad.png>
-Package pdftex.def Info: kostnad.png used on input line 757.
+Package pdftex.def Info: kostnad.png used on input line 755.
 (pdftex.def)             Requested size: 418.25368pt x 227.69945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--762
+Underfull \hbox (badness 10000) in paragraph at lines 753--760
 
  []
 
 [22 <./alder.png>] [23 <./kostnad.png>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 824--824
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
 []\T1/cmr/m/n/10 Skillnad
  []
 
 [25]
-Underfull \hbox (badness 1577) in paragraph at lines 848--848
+Underfull \hbox (badness 1577) in paragraph at lines 846--846
 []\T1/cmr/m/n/10 Värdeskapande in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 848--848
+Underfull \hbox (badness 10000) in paragraph at lines 846--846
 []\T1/cmr/m/n/10 Värdeskapande
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 851--851
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 [][]\T1/cmr/m/n/10 Skillnad mel-lan
  []
 
 [26] [27] [28] [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 892--893
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
@@ -1029,6 +1023,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 928--929
  []
 
 
+Overfull \hbox (12.11345pt too wide) in paragraph at lines 930--931
+[][]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re 
+vårdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 930--931
 
  []
@@ -1039,22 +1039,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 932--933
  []
 
 
-Overfull \hbox (12.11345pt too wide) in paragraph at lines 934--935
-[][]\T1/cmr/m/n/10 Nordenström, J. (2014) Vär-de-ba-se-rad vård kan ge bätt-re 
-vårdut-fall. Lä-kar-tid-ning-en. 2014;111:CZCR 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
-
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 936--937
 
  []
 
-[32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 938--939
 
  []
@@ -1075,24 +1069,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 944--945
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--947
+Underfull \hbox (badness 10000) in paragraph at lines 947--948
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--949
+Overfull \hbox (39.32903pt too wide) in paragraph at lines 949--950
+\T1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen-
+-presentationsbroschyrer--organisation/ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
- []
-
-
-Overfull \hbox (39.32903pt too wide) in paragraph at lines 953--954
-\T1/cmr/m/n/10 karolinska/Fakta-om-sjukhuset-Verksamhetsplaner--arsberattelsen-
--presentationsbroschyrer--organisation/ 
  []
 
 
@@ -1110,29 +1104,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 957--958
 
  []
 
-
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 959--960
 
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-
- []
-
-
-Overfull \hbox (47.21599pt too wide) in paragraph at lines 965--966
+Overfull \hbox (47.21599pt too wide) in paragraph at lines 961--962
 [][]\T1/cmr/m/n/10 Zaremba, M., (2013). Den olön-sam-ma pa-ti-en-ten. Häm-tad 2
 015-03-20, från http://www.dn.se/stories/stories-
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 965--966
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 967--968
 
  []
 
@@ -1148,16 +1142,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 973--974
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
@@ -1204,7 +1188,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  15593 strings out of 493117
  292982 string characters out of 6135433
- 376083 words of memory out of 5000000
+ 376084 words of memory out of 5000000
  18734 multiletter control sequences out of 15000+600000
  18615 words of font info for 42 fonts, out of 8000000 for 9000
  1154 hyphenation exceptions out of 8191
@@ -1234,7 +1218,7 @@ s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sfti1000.pfb>
-Output written on harvard.pdf (40 pages, 2042268 bytes).
+Output written on harvard.pdf (40 pages, 2042639 bytes).
 PDF statistics:
  347 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams

@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.3}Att m\IeC {\"a}ta v\IeC {\"a}rdeskapande}{7}
 \contentsline {subsubsection}{\numberline {2.3.1}Att m\IeC {\"a}ta kvalitet}{7}
 \contentsline {subsubsection}{\numberline {2.3.2}Att m\IeC {\"a}ta kostnad}{9}
-\contentsline {subsubsection}{\numberline {2.3.3}Justering}{10}
+\contentsline {subsubsection}{\numberline {2.3.3}Justering}{9}
 \contentsline {subsection}{\numberline {2.4}Sammanfattning av teori}{11}
 \contentsline {section}{\numberline {3}Metod och data}{12}
 \contentsline {subsection}{\numberline {3.1}Val av studieobjekt}{14}
